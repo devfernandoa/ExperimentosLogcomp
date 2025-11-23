@@ -1,0 +1,378 @@
+{"test_id": "v1.0.yaml::1", "expected_error": "Unexpected token PLUS (expected INT)"}
+{"test_id": "v1.0.yaml::2", "expected_error": "Unexpected token MINUS (expected INT)"}
+{"test_id": "v1.0.yaml::3", "expected_error": "Unexpected token EOF (expected INT)"}
+{"test_id": "v1.0.yaml::4", "expected_error": "Unexpected token EOF (expected INT)"}
+{"test_id": "v1.0.yaml::5", "expected_error": "Unexpected token PLUS (expected INT)"}
+{"test_id": "v1.0.yaml::6", "expected_error": "Unexpected token MINUS (expected INT)"}
+{"test_id": "v1.0.yaml::7", "expected_error": "Unexpected token PLUS (expected INT)"}
+{"test_id": "v1.0.yaml::8", "expected_error": "Unexpected token MINUS (expected INT)"}
+{"test_id": "v1.0.yaml::9", "expected_error": "Unexpected token EOF (expected INT)"}
+{"test_id": "v1.0.yaml::10", "expected_error": "Unexpected token PLUS (expected INT)"}
+{"test_id": "v1.0.yaml::11", "expected_error": "Unexpected token MINUS (expected INT)"}
+{"test_id": "v1.0.yaml::12", "expected_error": "Unexpected token INT (expected EOF)"}
+{"test_id": "v1.0.yaml::13", "expected_error": "Invalid token ,"}
+{"test_id": "v0.0.yaml::1", "expected_error": "Unexpected token PLUS (expected INT)"}
+{"test_id": "v0.0.yaml::2", "expected_error": "Unexpected token MINUS (expected INT)"}
+{"test_id": "v0.0.yaml::3", "expected_error": "Unexpected token EOF (expected INT)"}
+{"test_id": "v0.0.yaml::4", "expected_error": "Unexpected token EOF (expected INT)"}
+{"test_id": "v0.0.yaml::5", "expected_error": "Unexpected token PLUS (expected INT)"}
+{"test_id": "v0.0.yaml::6", "expected_error": "Unexpected token MINUS (expected INT)"}
+{"test_id": "v0.0.yaml::7", "expected_error": "Unexpected token PLUS (expected INT)"}
+{"test_id": "v0.0.yaml::8", "expected_error": "Unexpected token MINUS (expected INT)"}
+{"test_id": "v0.0.yaml::9", "expected_error": "Unexpected token EOF (expected INT)"}
+{"test_id": "v0.0.yaml::10", "expected_error": "Unexpected token PLUS (expected INT)"}
+{"test_id": "v0.0.yaml::11", "expected_error": "Unexpected token MINUS (expected INT)"}
+{"test_id": "v0.0.yaml::12", "expected_error": "Unexpected token INT (expected EOF)"}
+{"test_id": "v0.0.yaml::13", "expected_error": "Invalid token ,"}
+{"test_id": "v2.0.yaml::1", "expected_error": "Unexpected token EOL"}
+{"test_id": "v2.0.yaml::2", "expected_error": "Unexpected token EOL"}
+{"test_id": "v2.0.yaml::3", "expected_error": "Unexpected token EOL"}
+{"test_id": "v2.0.yaml::4", "expected_error": "Unexpected token EOL"}
+{"test_id": "v2.0.yaml::5", "expected_error": "Unexpected token EOL"}
+{"test_id": "v2.0.yaml::6", "expected_error": "Unexpected token INT"}
+{"test_id": "v2.0.yaml::7", "expected_error": "Invalid token ,"}
+{"test_id": "v2.0.yaml::8", "expected_error": "Unexpected token MULT"}
+{"test_id": "v2.0.yaml::9", "expected_error": "Unexpected token DIV"}
+{"test_id": "v2.0.yaml::10", "expected_error": "Unexpected token EOL"}
+{"test_id": "v2.0.yaml::11", "expected_error": "Unexpected token EOL"}
+{"test_id": "v2.0.yaml::12", "expected_error": "Unexpected token MULT"}
+{"test_id": "v2.0.yaml::13", "expected_error": "Unexpected token DIV"}
+{"test_id": "v2.0.yaml::14", "expected_error": "Unexpected token MULT"}
+{"test_id": "v2.0.yaml::15", "expected_error": "Unexpected token DIV"}
+{"test_id": "v2.0.yaml::16", "expected_error": "Unexpected token MULT"}
+{"test_id": "v2.0.yaml::17", "expected_error": "Unexpected token EOF"}
+{"test_id": "v2.0.yaml::18", "expected_error": "Unexpected token DIV"}
+{"test_id": "v2.0.yaml::19", "expected_error": "Unexpected token MULT"}
+{"test_id": "v2.0.yaml::20", "expected_error": "Missing CLOSE_PAR"}
+{"test_id": "v2.0.yaml::21", "expected_error": "Unexpected token CLOSE_PAR"}
+{"test_id": "v2.0.yaml::22", "expected_error": "Missing CLOSE_PAR"}
+{"test_id": "v2.0.yaml::23", "expected_error": "Unexpected token CLOSE_PAR"}
+{"test_id": "v2.0.yaml::24", "expected_error": "Unexpected token OPEN_PAR"}
+{"test_id": "v2.0.yaml::25", "expected_error": "Unexpected token IDEN"}
+{"test_id": "v2.0.yaml::26", "expected_error": "Unexpected token INT (expected OPEN_PAR)"}
+{"test_id": "v2.0.yaml::27", "expected_error": "Unexpected token EOL (expected CLOSE_PAR)"}
+{"test_id": "v2.0.yaml::28", "expected_error": "Unexpected token INT (expected OPEN_PAR)"}
+{"test_id": "v2.0.yaml::29", "expected_error": "Identifier not found"}
+{"test_id": "v2.0.yaml::30", "expected_error": "Unexpected token IDEN"}
+{"test_id": "v2.0.yaml::31", "expected_error": "Unexpected token ASSIGN (expected OPEN_PAR)"}
+{"test_id": "v2.0.yaml::32", "expected_error": "Unexpected token EOL (expected CLOSE_PAR)"}
+{"test_id": "v2.0.yaml::33", "expected_error": "Unexpected token INT"}
+{"test_id": "v1.1.yaml::1", "expected_error": "Unexpected token EOF"}
+{"test_id": "v1.1.yaml::2", "expected_error": "Unexpected token EOF"}
+{"test_id": "v1.1.yaml::3", "expected_error": "Unexpected token EOF"}
+{"test_id": "v1.1.yaml::4", "expected_error": "Unexpected token PLUS"}
+{"test_id": "v1.1.yaml::5", "expected_error": "Unexpected token MINUS"}
+{"test_id": "v1.1.yaml::6", "expected_error": "Unexpected token INT"}
+{"test_id": "v1.1.yaml::7", "expected_error": "Invalid token ,"}
+{"test_id": "v1.1.yaml::8", "expected_error": "Unexpected token MULT"}
+{"test_id": "v1.1.yaml::9", "expected_error": "Unexpected token DIV"}
+{"test_id": "v1.1.yaml::10", "expected_error": "Unexpected token EOF"}
+{"test_id": "v1.1.yaml::11", "expected_error": "Unexpected token EOF"}
+{"test_id": "v1.1.yaml::12", "expected_error": "Unexpected token MULT"}
+{"test_id": "v1.1.yaml::13", "expected_error": "Unexpected token DIV"}
+{"test_id": "v1.1.yaml::14", "expected_error": "Unexpected token MULT"}
+{"test_id": "v1.1.yaml::15", "expected_error": "Unexpected token DIV"}
+{"test_id": "v1.1.yaml::16", "expected_error": "Unexpected token MULT"}
+{"test_id": "v1.1.yaml::17", "expected_error": "Unexpected token DIV"}
+{"test_id": "v1.1.yaml::18", "expected_error": "Unexpected token DIV"}
+{"test_id": "v1.1.yaml::19", "expected_error": "Unexpected token MULT"}
+{"test_id": "v1.1.yaml::20", "expected_error": "Unexpected token EOF"}
+{"test_id": "v1.1.yaml::21", "expected_error": "Unexpected token CLOSE_PAR"}
+{"test_id": "v1.1.yaml::22", "expected_error": "Unexpected token EOF"}
+{"test_id": "v1.1.yaml::23", "expected_error": "Unexpected token CLOSE_PAR"}
+{"test_id": "v1.2.yaml::1", "expected_error": "Unexpected token EOF"}
+{"test_id": "v1.2.yaml::2", "expected_error": "Unexpected token EOF"}
+{"test_id": "v1.2.yaml::3", "expected_error": "Unexpected token EOF"}
+{"test_id": "v1.2.yaml::4", "expected_error": "Unexpected token PLUS"}
+{"test_id": "v1.2.yaml::5", "expected_error": "Unexpected token MINUS"}
+{"test_id": "v1.2.yaml::6", "expected_error": "Unexpected token INT"}
+{"test_id": "v1.2.yaml::7", "expected_error": "Invalid token ,"}
+{"test_id": "v1.2.yaml::8", "expected_error": "Unexpected token MULT"}
+{"test_id": "v1.2.yaml::9", "expected_error": "Unexpected token DIV"}
+{"test_id": "v1.2.yaml::10", "expected_error": "Unexpected token EOF"}
+{"test_id": "v1.2.yaml::11", "expected_error": "Unexpected token EOF"}
+{"test_id": "v1.2.yaml::12", "expected_error": "Unexpected token MULT"}
+{"test_id": "v1.2.yaml::13", "expected_error": "Unexpected token DIV"}
+{"test_id": "v1.2.yaml::14", "expected_error": "Unexpected token MULT"}
+{"test_id": "v1.2.yaml::15", "expected_error": "Unexpected token DIV"}
+{"test_id": "v1.2.yaml::16", "expected_error": "Unexpected token MULT"}
+{"test_id": "v1.2.yaml::17", "expected_error": "Unexpected token DIV"}
+{"test_id": "v1.2.yaml::18", "expected_error": "Unexpected token DIV"}
+{"test_id": "v1.2.yaml::19", "expected_error": "Unexpected token MULT"}
+{"test_id": "v1.2.yaml::20", "expected_error": "Unexpected token EOF"}
+{"test_id": "v1.2.yaml::21", "expected_error": "Unexpected token CLOSE_PAR"}
+{"test_id": "v1.2.yaml::22", "expected_error": "Unexpected token EOF"}
+{"test_id": "v1.2.yaml::23", "expected_error": "Unexpected token CLOSE_PAR"}
+{"test_id": "v2.1.yaml::1", "expected_error": "Unexpected token EOL"}
+{"test_id": "v2.1.yaml::2", "expected_error": "Unexpected token EOL"}
+{"test_id": "v2.1.yaml::3", "expected_error": "Unexpected token EOL"}
+{"test_id": "v2.1.yaml::4", "expected_error": "Unexpected token EOL"}
+{"test_id": "v2.1.yaml::5", "expected_error": "Unexpected token EOL"}
+{"test_id": "v2.1.yaml::6", "expected_error": "Unexpected token INT"}
+{"test_id": "v2.1.yaml::7", "expected_error": "Invalid token ,"}
+{"test_id": "v2.1.yaml::8", "expected_error": "Unexpected token MULT"}
+{"test_id": "v2.1.yaml::9", "expected_error": "Unexpected token DIV"}
+{"test_id": "v2.1.yaml::10", "expected_error": "Unexpected token EOL"}
+{"test_id": "v2.1.yaml::11", "expected_error": "Unexpected token EOL"}
+{"test_id": "v2.1.yaml::12", "expected_error": "Unexpected token MULT"}
+{"test_id": "v2.1.yaml::13", "expected_error": "Unexpected token DIV"}
+{"test_id": "v2.1.yaml::14", "expected_error": "Unexpected token MULT"}
+{"test_id": "v2.1.yaml::15", "expected_error": "Unexpected token DIV"}
+{"test_id": "v2.1.yaml::16", "expected_error": "Unexpected token MULT"}
+{"test_id": "v2.1.yaml::17", "expected_error": "Unexpected token CLOSE_BRA"}
+{"test_id": "v2.1.yaml::18", "expected_error": "Unexpected token DIV"}
+{"test_id": "v2.1.yaml::19", "expected_error": "Unexpected token MULT"}
+{"test_id": "v2.1.yaml::20", "expected_error": "Missing CLOSE_PAR"}
+{"test_id": "v2.1.yaml::21", "expected_error": "Unexpected token CLOSE_PAR"}
+{"test_id": "v2.1.yaml::22", "expected_error": "Missing CLOSE_PAR"}
+{"test_id": "v2.1.yaml::23", "expected_error": "Unexpected token CLOSE_PAR"}
+{"test_id": "v2.1.yaml::24", "expected_error": "Unexpected token OPEN_PAR"}
+{"test_id": "v2.1.yaml::25", "expected_error": "Unexpected token IDEN"}
+{"test_id": "v2.1.yaml::26", "expected_error": "Unexpected token INT (expected OPEN_PAR)"}
+{"test_id": "v2.1.yaml::27", "expected_error": "Unexpected token EOL (expected CLOSE_PAR)"}
+{"test_id": "v2.1.yaml::28", "expected_error": "Unexpected token INT (expected OPEN_PAR)"}
+{"test_id": "v2.1.yaml::29", "expected_error": "Identifier not found"}
+{"test_id": "v2.1.yaml::30", "expected_error": "Unexpected token EOF (expected CLOSE_BRA)"}
+{"test_id": "v2.1.yaml::31", "expected_error": "Unexpected token CLOSE_BRA (expected EOF)"}
+{"test_id": "v2.1.yaml::32", "expected_error": "Unexpected token IDEN"}
+{"test_id": "v2.1.yaml::33", "expected_error": "Unexpected token ASSIGN (expected OPEN_PAR)"}
+{"test_id": "v2.1.yaml::34", "expected_error": "Unexpected token EOL (expected CLOSE_PAR)"}
+{"test_id": "v2.1.yaml::35", "expected_error": "Unexpected token INT"}
+{"test_id": "v2.1.yaml::36", "expected_error": "Missing CLOSE_BRA"}
+{"test_id": "v2.1.yaml::37", "expected_error": "Missing OPEN_BRA"}
+{"test_id": "v2.1.yaml::38", "expected_error": "Missing CLOSE_BRA"}
+{"test_id": "v2.1.yaml::39", "expected_error": "Unexpected token EOF"}
+{"test_id": "v2.1.yaml::40", "expected_error": "Unexpected token EOF"}
+{"test_id": "v2.1.yaml::41", "expected_error": "Missing OPEN_BRA"}
+{"test_id": "v2.1.yaml::42", "expected_error": "Unexpected ELSE"}
+{"test_id": "v2.1.yaml::43", "expected_error": "Missing Right Expression"}
+{"test_id": "v2.1.yaml::44", "expected_error": "Missing Right Expression"}
+{"test_id": "v2.1.yaml::45", "expected_error": "Missing Right Expression"}
+{"test_id": "v2.1.yaml::46", "expected_error": "Missing Right Expression"}
+{"test_id": "v2.1.yaml::47", "expected_error": "Missing OPEN_PAR"}
+{"test_id": "v2.1.yaml::48", "expected_error": "Missing CLOSE_PAR"}
+{"test_id": "v2.1.yaml::49", "expected_error": "Unexpected token INT"}
+{"test_id": "v2.1.yaml::50", "expected_error": "Unexpected token INT"}
+{"test_id": "v2.1.yaml::51", "expected_error": "Unexpected token NEWLINE Before Else"}
+{"test_id": "v2.1.yaml::52", "expected_error": "Unexpected token CLOSE_BRA in Else"}
+{"test_id": "v2.1.yaml::53", "expected_error": "Unexpected token NEWLINE in Else"}
+{"test_id": "v2.1.yaml::54", "expected_error": "Unexpected token NEWLINE in While"}
+{"test_id": "v2.1.yaml::55", "expected_error": "Unexpected token CLOSE_BRA in While"}
+{"test_id": "v2.1.yaml::56", "expected_error": "Missing OPEN_BRA in If"}
+{"test_id": "v2.1.yaml::57", "expected_error": "Missing OPEN_BRA in If"}
+{"test_id": "v2.1.yaml::58", "expected_error": "Missing OPEN_PAR in If"}
+{"test_id": "v2.1.yaml::59", "expected_error": "Missing OPEN_PAR in While"}
+{"test_id": "v2.3.yaml::0", "expected_error": "2\n24\n8\n9\n0\n1\n6\n12\n3\n1\n2\n2\n&FALSE\n&FALSE\n&TRUE\nabcdef\nabc\nabc1\n1abc\nabc&TRUE\n&TRUE\n&TRUE\n&FALSE"}
+{"test_id": "v2.3.yaml::1", "expected_error": "Unexpected token EOL"}
+{"test_id": "v2.3.yaml::2", "expected_error": "Unexpected token EOL"}
+{"test_id": "v2.3.yaml::3", "expected_error": "Unexpected token EOL"}
+{"test_id": "v2.3.yaml::4", "expected_error": "Unexpected token EOL"}
+{"test_id": "v2.3.yaml::5", "expected_error": "Unexpected token EOL"}
+{"test_id": "v2.3.yaml::6", "expected_error": "Unexpected token INT"}
+{"test_id": "v2.3.yaml::7", "expected_error": "Invalid token @"}
+{"test_id": "v2.3.yaml::8", "expected_error": "Unexpected token MULT"}
+{"test_id": "v2.3.yaml::9", "expected_error": "Unexpected token DIV"}
+{"test_id": "v2.3.yaml::10", "expected_error": "Unexpected token EOL"}
+{"test_id": "v2.3.yaml::11", "expected_error": "Unexpected token EOL"}
+{"test_id": "v2.3.yaml::12", "expected_error": "Unexpected token MULT"}
+{"test_id": "v2.3.yaml::13", "expected_error": "Unexpected token DIV"}
+{"test_id": "v2.3.yaml::14", "expected_error": "Unexpected token MULT"}
+{"test_id": "v2.3.yaml::15", "expected_error": "Unexpected token DIV"}
+{"test_id": "v2.3.yaml::16", "expected_error": "Unexpected token MULT"}
+{"test_id": "v2.3.yaml::17", "expected_error": "Unexpected token CLOSE_BRA"}
+{"test_id": "v2.3.yaml::18", "expected_error": "Unexpected token DIV"}
+{"test_id": "v2.3.yaml::19", "expected_error": "Unexpected token MULT"}
+{"test_id": "v2.3.yaml::20", "expected_error": "Missing CLOSE_PAR"}
+{"test_id": "v2.3.yaml::21", "expected_error": "Unexpected token CLOSE_PAR"}
+{"test_id": "v2.3.yaml::22", "expected_error": "Missing CLOSE_PAR"}
+{"test_id": "v2.3.yaml::23", "expected_error": "Unexpected token CLOSE_PAR"}
+{"test_id": "v2.3.yaml::24", "expected_error": "Unexpected token OPEN_PAR"}
+{"test_id": "v2.3.yaml::25", "expected_error": "Unexpected token IDEN"}
+{"test_id": "v2.3.yaml::26", "expected_error": "Unexpected token INT (expected OPEN_PAR)"}
+{"test_id": "v2.3.yaml::27", "expected_error": "Unexpected token EOL (expected CLOSE_PAR)"}
+{"test_id": "v2.3.yaml::28", "expected_error": "Unexpected token INT (expected OPEN_PAR)"}
+{"test_id": "v2.3.yaml::29", "expected_error": "Identifier not found"}
+{"test_id": "v2.3.yaml::30", "expected_error": "Unexpected token EOF (expected CLOSE_BRA)"}
+{"test_id": "v2.3.yaml::31", "expected_error": "Unexpected token FUNC or OPEN_PAR"}
+{"test_id": "v2.3.yaml::32", "expected_error": "Unexpected token CLOSE_BRA (expected EOF)"}
+{"test_id": "v2.3.yaml::33", "expected_error": "Unexpected token IDEN (expected OPEN_BRA)"}
+{"test_id": "v2.3.yaml::34", "expected_error": "Unexpected token EOF (expected OPEN_BRA)"}
+{"test_id": "v2.3.yaml::35", "expected_error": "Unexpected token IDEN"}
+{"test_id": "v2.3.yaml::36", "expected_error": "Unexpected token ASSIGN (expected OPEN_PAR)"}
+{"test_id": "v2.3.yaml::37", "expected_error": "Unexpected token EOL (expected CLOSE_PAR)"}
+{"test_id": "v2.3.yaml::38", "expected_error": "Unexpected token INT"}
+{"test_id": "v2.3.yaml::39", "expected_error": "Missing CLOSE_BRA"}
+{"test_id": "v2.3.yaml::40", "expected_error": "Missing OPEN_BRA"}
+{"test_id": "v2.3.yaml::41", "expected_error": "Missing CLOSE_BRA"}
+{"test_id": "v2.3.yaml::42", "expected_error": "Unexpected token EOF"}
+{"test_id": "v2.3.yaml::43", "expected_error": "Unexpected token EOF"}
+{"test_id": "v2.3.yaml::44", "expected_error": "Missing OPEN_BRA"}
+{"test_id": "v2.3.yaml::45", "expected_error": "Unexpected ELSE"}
+{"test_id": "v2.3.yaml::46", "expected_error": "Missing Right Expression"}
+{"test_id": "v2.3.yaml::47", "expected_error": "Missing Right Expression"}
+{"test_id": "v2.3.yaml::48", "expected_error": "Missing Right Expression"}
+{"test_id": "v2.3.yaml::49", "expected_error": "Missing Right Expression"}
+{"test_id": "v2.3.yaml::50", "expected_error": "Missing OPEN_PAR"}
+{"test_id": "v2.3.yaml::51", "expected_error": "Missing CLOSE_PAR"}
+{"test_id": "v2.3.yaml::52", "expected_error": "Unexpected token INT"}
+{"test_id": "v2.3.yaml::53", "expected_error": "Unexpected token INT"}
+{"test_id": "v2.3.yaml::54", "expected_error": "Unexpected token NEWLINE Before Else"}
+{"test_id": "v2.3.yaml::55", "expected_error": "Unexpected token CLOSE_BRA in Else"}
+{"test_id": "v2.3.yaml::56", "expected_error": "Unexpected token NEWLINE in Else"}
+{"test_id": "v2.3.yaml::57", "expected_error": "Unexpected token NEWLINE in While"}
+{"test_id": "v2.3.yaml::58", "expected_error": "Unexpected token CLOSE_BRA in While"}
+{"test_id": "v2.3.yaml::59", "expected_error": "Missing OPEN_BRA in If"}
+{"test_id": "v2.3.yaml::60", "expected_error": "Missing OPEN_BRA in If"}
+{"test_id": "v2.3.yaml::61", "expected_error": "Missing OPEN_PAR in If"}
+{"test_id": "v2.3.yaml::62", "expected_error": "Missing OPEN_PAR in While"}
+{"test_id": "v2.3.yaml::63", "expected_error": "COLON not found"}
+{"test_id": "v2.3.yaml::64", "expected_error": "COLON not found"}
+{"test_id": "v2.3.yaml::65", "expected_error": "TYPE not found"}
+{"test_id": "v2.3.yaml::66", "expected_error": "Unexpected Identifier"}
+{"test_id": "v2.3.yaml::67", "expected_error": "Incompatible types"}
+{"test_id": "v2.3.yaml::68", "expected_error": "Incompatible types"}
+{"test_id": "v2.3.yaml::69", "expected_error": "Incompatible types"}
+{"test_id": "v2.3.yaml::70", "expected_error": "Incompatible types"}
+{"test_id": "v2.3.yaml::71", "expected_error": "Incompatible types"}
+{"test_id": "v2.3.yaml::72", "expected_error": "Incompatible types"}
+{"test_id": "v2.3.yaml::73", "expected_error": "Incompatible types"}
+{"test_id": "v2.3.yaml::74", "expected_error": "Incompatible types"}
+{"test_id": "v2.3.yaml::75", "expected_error": "Variable Already Declared"}
+{"test_id": "v2.3.yaml::76", "expected_error": "Unexpected EOF"}
+{"test_id": "v2.3.yaml::77", "expected_error": "Variable not found"}
+{"test_id": "v2.3.yaml::78", "expected_error": "Incompatible Types"}
+{"test_id": "v2.3.yaml::79", "expected_error": "Incompatible Types"}
+{"test_id": "v2.3.yaml::80", "expected_error": "Incompatible Types"}
+{"test_id": "v2.3.yaml::81", "expected_error": "Incompatible Types"}
+{"test_id": "v2.3.yaml::82", "expected_error": "Incompatible Types"}
+{"test_id": "v2.3.yaml::83", "expected_error": "Incompatible Types"}
+{"test_id": "v2.3.yaml::84", "expected_error": "Incompatible Types"}
+{"test_id": "v2.3.yaml::85", "expected_error": "Incompatible Types"}
+{"test_id": "v2.3.yaml::86", "expected_error": "Incompatible Types"}
+{"test_id": "v2.3.yaml::87", "expected_error": "Incompatible Types"}
+{"test_id": "v2.3.yaml::88", "expected_error": "Incompatible Types"}
+{"test_id": "v2.3.yaml::89", "expected_error": "Incompatible Types"}
+{"test_id": "v2.3.yaml::90", "expected_error": "Incompatible Types"}
+{"test_id": "v2.3.yaml::91", "expected_error": "Incompatible Types"}
+{"test_id": "v2.3.yaml::92", "expected_error": "Incompatible Type"}
+{"test_id": "v2.3.yaml::93", "expected_error": "Incompatible Type"}
+{"test_id": "v2.3.yaml::94", "expected_error": "Incompatible Type"}
+{"test_id": "v2.3.yaml::95", "expected_error": "Incompatible Type"}
+{"test_id": "v2.3.yaml::96", "expected_error": "Incompatible Type"}
+{"test_id": "v2.3.yaml::97", "expected_error": "Incompatible Type"}
+{"test_id": "v2.3.yaml::98", "expected_error": "Incompatible Type"}
+{"test_id": "v2.3.yaml::99", "expected_error": "Incompatible Type"}
+{"test_id": "v2.3.yaml::100", "expected_error": "Incompatible Type"}
+{"test_id": "v2.3.yaml::101", "expected_error": "Incompatible Type"}
+{"test_id": "v2.3.yaml::102", "expected_error": "Incompatible Type"}
+{"test_id": "v2.3.yaml::103", "expected_error": "Missing function type"}
+{"test_id": "v2.3.yaml::104", "expected_error": "Missing function main"}
+{"test_id": "v2.3.yaml::105", "expected_error": "Missing second arg"}
+{"test_id": "v2.3.yaml::106", "expected_error": "Missing second arg"}
+{"test_id": "v2.3.yaml::107", "expected_error": "Number of args wrong"}
+{"test_id": "v2.3.yaml::108", "expected_error": "Number of args wrong"}
+{"test_id": "v2.3.yaml::109", "expected_error": "Wrong arg type"}
+{"test_id": "v2.3.yaml::110", "expected_error": "Wrong func return type"}
+{"test_id": "v2.3.yaml::111", "expected_error": "Function not found"}
+{"test_id": "v2.3.yaml::112", "expected_error": "Function not found"}
+{"test_id": "v2.3.yaml::113", "expected_error": "Function not found"}
+{"test_id": "v2.3.yaml::114", "expected_error": "Invalid return in a void function"}
+{"test_id": "v2.2.yaml::1", "expected_error": "Unexpected token EOL"}
+{"test_id": "v2.2.yaml::2", "expected_error": "Unexpected token EOL"}
+{"test_id": "v2.2.yaml::3", "expected_error": "Unexpected token EOL"}
+{"test_id": "v2.2.yaml::4", "expected_error": "Unexpected token EOL"}
+{"test_id": "v2.2.yaml::5", "expected_error": "Unexpected token EOL"}
+{"test_id": "v2.2.yaml::6", "expected_error": "Unexpected token INT"}
+{"test_id": "v2.2.yaml::7", "expected_error": "Invalid token ,"}
+{"test_id": "v2.2.yaml::8", "expected_error": "Unexpected token MULT"}
+{"test_id": "v2.2.yaml::9", "expected_error": "Unexpected token DIV"}
+{"test_id": "v2.2.yaml::10", "expected_error": "Unexpected token EOL"}
+{"test_id": "v2.2.yaml::11", "expected_error": "Unexpected token EOL"}
+{"test_id": "v2.2.yaml::12", "expected_error": "Unexpected token MULT"}
+{"test_id": "v2.2.yaml::13", "expected_error": "Unexpected token DIV"}
+{"test_id": "v2.2.yaml::14", "expected_error": "Unexpected token MULT"}
+{"test_id": "v2.2.yaml::15", "expected_error": "Unexpected token DIV"}
+{"test_id": "v2.2.yaml::16", "expected_error": "Unexpected token MULT"}
+{"test_id": "v2.2.yaml::17", "expected_error": "Unexpected token CLOSE_BRA"}
+{"test_id": "v2.2.yaml::18", "expected_error": "Unexpected token DIV"}
+{"test_id": "v2.2.yaml::19", "expected_error": "Unexpected token MULT"}
+{"test_id": "v2.2.yaml::20", "expected_error": "Missing CLOSE_PAR"}
+{"test_id": "v2.2.yaml::21", "expected_error": "Unexpected token CLOSE_PAR"}
+{"test_id": "v2.2.yaml::22", "expected_error": "Missing CLOSE_PAR"}
+{"test_id": "v2.2.yaml::23", "expected_error": "Unexpected token CLOSE_PAR"}
+{"test_id": "v2.2.yaml::24", "expected_error": "Unexpected token OPEN_PAR"}
+{"test_id": "v2.2.yaml::25", "expected_error": "Unexpected token IDEN"}
+{"test_id": "v2.2.yaml::26", "expected_error": "Unexpected token INT (expected OPEN_PAR)"}
+{"test_id": "v2.2.yaml::27", "expected_error": "Unexpected token EOL (expected CLOSE_PAR)"}
+{"test_id": "v2.2.yaml::28", "expected_error": "Unexpected token INT (expected OPEN_PAR)"}
+{"test_id": "v2.2.yaml::29", "expected_error": "Identifier not found"}
+{"test_id": "v2.2.yaml::30", "expected_error": "Unexpected token EOF (expected CLOSE_BRA)"}
+{"test_id": "v2.2.yaml::31", "expected_error": "Unexpected token CLOSE_BRA (expected EOF)"}
+{"test_id": "v2.2.yaml::32", "expected_error": "Unexpected token IDEN"}
+{"test_id": "v2.2.yaml::33", "expected_error": "Unexpected token ASSIGN (expected OPEN_PAR)"}
+{"test_id": "v2.2.yaml::34", "expected_error": "Unexpected token EOL (expected CLOSE_PAR)"}
+{"test_id": "v2.2.yaml::35", "expected_error": "Unexpected token INT"}
+{"test_id": "v2.2.yaml::36", "expected_error": "Missing CLOSE_BRA"}
+{"test_id": "v2.2.yaml::37", "expected_error": "Missing OPEN_BRA"}
+{"test_id": "v2.2.yaml::38", "expected_error": "Missing CLOSE_BRA"}
+{"test_id": "v2.2.yaml::39", "expected_error": "Unexpected token EOF"}
+{"test_id": "v2.2.yaml::40", "expected_error": "Unexpected token EOF"}
+{"test_id": "v2.2.yaml::41", "expected_error": "Missing OPEN_BRA"}
+{"test_id": "v2.2.yaml::42", "expected_error": "Unexpected ELSE"}
+{"test_id": "v2.2.yaml::43", "expected_error": "Missing Right Expression"}
+{"test_id": "v2.2.yaml::44", "expected_error": "Missing Right Expression"}
+{"test_id": "v2.2.yaml::45", "expected_error": "Missing Right Expression"}
+{"test_id": "v2.2.yaml::46", "expected_error": "Missing Right Expression"}
+{"test_id": "v2.2.yaml::47", "expected_error": "Missing OPEN_PAR"}
+{"test_id": "v2.2.yaml::48", "expected_error": "Missing CLOSE_PAR"}
+{"test_id": "v2.2.yaml::49", "expected_error": "Unexpected token INT"}
+{"test_id": "v2.2.yaml::50", "expected_error": "Unexpected token INT"}
+{"test_id": "v2.2.yaml::51", "expected_error": "Unexpected token NEWLINE Before Else"}
+{"test_id": "v2.2.yaml::52", "expected_error": "Unexpected token CLOSE_BRA in Else"}
+{"test_id": "v2.2.yaml::53", "expected_error": "Unexpected token NEWLINE in Else"}
+{"test_id": "v2.2.yaml::54", "expected_error": "Unexpected token NEWLINE in While"}
+{"test_id": "v2.2.yaml::55", "expected_error": "Unexpected token CLOSE_BRA in While"}
+{"test_id": "v2.2.yaml::56", "expected_error": "Missing OPEN_BRA in If"}
+{"test_id": "v2.2.yaml::57", "expected_error": "Missing OPEN_BRA in If"}
+{"test_id": "v2.2.yaml::58", "expected_error": "Missing OPEN_PAR in If"}
+{"test_id": "v2.2.yaml::59", "expected_error": "Missing OPEN_PAR in While"}
+{"test_id": "v2.2.yaml::60", "expected_error": "COLON not found"}
+{"test_id": "v2.2.yaml::61", "expected_error": "COLON not found"}
+{"test_id": "v2.2.yaml::62", "expected_error": "TYPE not found"}
+{"test_id": "v2.2.yaml::63", "expected_error": "Unexpected Identifier"}
+{"test_id": "v2.2.yaml::64", "expected_error": "Incompatible types"}
+{"test_id": "v2.2.yaml::65", "expected_error": "Incompatible types"}
+{"test_id": "v2.2.yaml::66", "expected_error": "Incompatible types"}
+{"test_id": "v2.2.yaml::67", "expected_error": "Incompatible types"}
+{"test_id": "v2.2.yaml::68", "expected_error": "Incompatible types"}
+{"test_id": "v2.2.yaml::69", "expected_error": "Incompatible types"}
+{"test_id": "v2.2.yaml::70", "expected_error": "Incompatible types"}
+{"test_id": "v2.2.yaml::71", "expected_error": "Incompatible types"}
+{"test_id": "v2.2.yaml::72", "expected_error": "Variable Already Declared"}
+{"test_id": "v2.2.yaml::73", "expected_error": "Unexpected EOF"}
+{"test_id": "v2.2.yaml::74", "expected_error": "Variable not found"}
+{"test_id": "v2.2.yaml::75", "expected_error": "Incompatible Types"}
+{"test_id": "v2.2.yaml::76", "expected_error": "Incompatible Types"}
+{"test_id": "v2.2.yaml::77", "expected_error": "Incompatible Types"}
+{"test_id": "v2.2.yaml::78", "expected_error": "Incompatible Types"}
+{"test_id": "v2.2.yaml::79", "expected_error": "Incompatible Types"}
+{"test_id": "v2.2.yaml::80", "expected_error": "Incompatible Types"}
+{"test_id": "v2.2.yaml::81", "expected_error": "Incompatible Types"}
+{"test_id": "v2.2.yaml::82", "expected_error": "Incompatible Types"}
+{"test_id": "v2.2.yaml::83", "expected_error": "Incompatible Types"}
+{"test_id": "v2.2.yaml::84", "expected_error": "Incompatible Types"}
+{"test_id": "v2.2.yaml::85", "expected_error": "Incompatible Types"}
+{"test_id": "v2.2.yaml::86", "expected_error": "Incompatible Types"}
+{"test_id": "v2.2.yaml::87", "expected_error": "Incompatible Types"}
+{"test_id": "v2.2.yaml::88", "expected_error": "Incompatible Types"}
+{"test_id": "v2.2.yaml::89", "expected_error": "Incompatible Type"}
+{"test_id": "v2.2.yaml::90", "expected_error": "Incompatible Type"}
+{"test_id": "v2.2.yaml::91", "expected_error": "Incompatible Type"}
+{"test_id": "v2.2.yaml::92", "expected_error": "Incompatible Type"}
+{"test_id": "v2.2.yaml::93", "expected_error": "Incompatible Type"}
+{"test_id": "v2.2.yaml::94", "expected_error": "Incompatible Type"}
+{"test_id": "v2.2.yaml::95", "expected_error": "Incompatible Type"}
+{"test_id": "v2.2.yaml::96", "expected_error": "Incompatible Type"}
+{"test_id": "v2.2.yaml::97", "expected_error": "Incompatible Type"}
+{"test_id": "v2.2.yaml::98", "expected_error": "Incompatible Type"}
+{"test_id": "v2.2.yaml::99", "expected_error": "Incompatible Type"}

@@ -1,0 +1,754 @@
+{"test_id": "v1.0.yaml::1", "expected_error": "Unexpected token PLUS (expected INT)", "student_error": "Line 5: Encountered a '+' where we were expecting a number value.", "label": true}
+{"test_id": "v1.0.yaml::2", "expected_error": "Unexpected token MINUS (expected INT)", "student_error": "Line 5: Found '-' where a number was expected.", "label": true}
+{"test_id": "v1.0.yaml::3", "expected_error": "Unexpected token EOF (expected INT)", "student_error": "Line 10: Syntax error at end of file. Expected an integer here.", "label": true}
+{"test_id": "v1.0.yaml::4", "expected_error": "Unexpected token EOF (expected INT)", "student_error": "Line 5: Unexpected end of file, expected an integer value here. Make sure you've provided a number where an INT is needed.", "label": true}
+{"test_id": "v1.0.yaml::5", "expected_error": "Unexpected token PLUS (expected INT)", "student_error": "Line 5: Unexpected '+' symbol here. Expected a number instead.", "label": true}
+{"test_id": "v1.0.yaml::6", "expected_error": "Unexpected token MINUS (expected INT)", "student_error": "Line 5: Syntax error - expected a number but found '-' instead.", "label": true}
+{"test_id": "v1.0.yaml::7", "expected_error": "Unexpected token PLUS (expected INT)", "student_error": "Line 5: Found a '+' where we expected a number.", "label": true}
+{"test_id": "v1.0.yaml::8", "expected_error": "Unexpected token MINUS (expected INT)", "student_error": "Line 5: Found a '-' where we expected a number. Try checking your expression there!", "label": true}
+{"test_id": "v1.0.yaml::9", "expected_error": "Unexpected token EOF (expected INT)", "student_error": "Line 5: Expected a number here but found nothing!", "label": true}
+{"test_id": "v1.0.yaml::10", "expected_error": "Unexpected token PLUS (expected INT)", "student_error": "Line 5: Found a '+' where a number should be. Did you mean to type a number here?", "label": true}
+{"test_id": "v1.0.yaml::11", "expected_error": "Unexpected token MINUS (expected INT)", "student_error": "Line 5: Unexpected symbol \"-\" (expected a number)", "label": true}
+{"test_id": "v1.0.yaml::12", "expected_error": "Unexpected token INT (expected EOF)", "student_error": "Line 5: Found 'INT' where the program was expected to end.", "label": true}
+{"test_id": "v1.0.yaml::13", "expected_error": "Invalid token ,", "student_error": "Line 5: Unknown symbol ',' encountered. Did you mean to use a different character?", "label": true}
+{"test_id": "v0.0.yaml::1", "expected_error": "Unexpected token PLUS (expected INT)", "student_error": "Line 5: Unknown symbol '+'; expected a number there.", "label": true}
+{"test_id": "v0.0.yaml::2", "expected_error": "Unexpected token MINUS (expected INT)", "student_error": "Line 5: Found '-' where a number was expected.", "label": true}
+{"test_id": "v0.0.yaml::3", "expected_error": "Unexpected token EOF (expected INT)", "student_error": "Line 10: Expected a number here, found nothing!", "label": true}
+{"test_id": "v0.0.yaml::4", "expected_error": "Unexpected token EOF (expected INT)", "student_error": "On line 5 near varA: Expected a number but found nothing!", "label": true}
+{"test_id": "v0.0.yaml::5", "expected_error": "Unexpected token PLUS (expected INT)", "student_error": "Line 5: Unknown symbol '+'. Expected a number here.", "label": true}
+{"test_id": "v0.0.yaml::6", "expected_error": "Unexpected token MINUS (expected INT)", "student_error": "Line 5: Unexpected sign '-'. Expected a number there.", "label": true}
+{"test_id": "v0.0.yaml::7", "expected_error": "Unexpected token PLUS (expected INT)", "student_error": "Line 5: Unexpected '+'. Expected a number instead.", "label": true}
+{"test_id": "v0.0.yaml::8", "expected_error": "Unexpected token MINUS (expected INT)", "student_error": "On line 5, near var age: Expected a number but found '-' instead. Did you mean to type a number like 10?", "label": true}
+{"test_id": "v0.0.yaml::9", "expected_error": "Unexpected token EOF (expected INT)", "student_error": "On line 5 near varNum: Expected a number here but found nothing!", "label": true}
+{"test_id": "v0.0.yaml::10", "expected_error": "Unexpected token PLUS (expected INT)", "student_error": "Line 5: Unexpected '+' symbol here. Expected a number instead.", "label": true}
+{"test_id": "v0.0.yaml::11", "expected_error": "Unexpected token MINUS (expected INT)", "student_error": "Line 5: Encountered a '-' where we were expecting a number.", "label": true}
+{"test_id": "v0.0.yaml::12", "expected_error": "Unexpected token INT (expected EOF)", "student_error": "Line 5: Found 'INT' where the program was expected to end. Fix it!", "label": true}
+{"test_id": "v0.0.yaml::13", "expected_error": "Invalid token ,", "student_error": "Line 5: Unknown symbol ',' found. Did you mean to use a different operator?", "label": true}
+{"test_id": "v2.0.yaml::1", "expected_error": "Unexpected token EOL", "student_error": "Line 5: Expected a value after 'x='", "label": true}
+{"test_id": "v2.0.yaml::2", "expected_error": "Unexpected token EOL", "student_error": "Line 7: Expected a keyword but found end of line instead. Please check your syntax near 'if'.", "label": true}
+{"test_id": "v2.0.yaml::3", "expected_error": "Unexpected token EOL", "student_error": "Line 10: Error - Expected a keyword or identifier before end of line.", "label": true}
+{"test_id": "v2.0.yaml::4", "expected_error": "Unexpected token EOL", "student_error": "Line 7: Unexpected end of line in expression. Make sure all operators have matching operands.", "label": true}
+{"test_id": "v2.0.yaml::5", "expected_error": "Unexpected token EOL", "student_error": "Line 10: Unexpected end of line here. Did you forget a semicolon?", "label": true}
+{"test_id": "v2.0.yaml::6", "expected_error": "Unexpected token INT", "student_error": "Line 5: Unexpected number sign! Did you mean to use a variable name instead of INT?", "label": true}
+{"test_id": "v2.0.yaml::7", "expected_error": "Invalid token ,", "student_error": "Line 5: Unknown symbol ',' found here. Did you mean a different character?", "label": true}
+{"test_id": "v2.0.yaml::8", "expected_error": "Unexpected token MULT", "student_error": "Line 10: Found a '*' where it didn't belong. Expected something else here.", "label": true}
+{"test_id": "v2.0.yaml::9", "expected_error": "Unexpected token DIV", "student_error": "Line 10: Unexpected symbol '/'. Did you mean to use a different operator?", "label": true}
+{"test_id": "v2.0.yaml::10", "expected_error": "Unexpected token EOL", "student_error": "On line 5 near variable 'age', unexpected end of file. Make sure all lines are properly closed.", "label": true}
+{"test_id": "v2.0.yaml::11", "expected_error": "Unexpected token EOL", "student_error": "Line 10: Unexpected end of line here. Make sure your statement is complete!", "label": true}
+{"test_id": "v2.0.yaml::12", "expected_error": "Unexpected token MULT", "student_error": "Line 10: Syntax error near '*'. Expected a different symbol here.", "label": true}
+{"test_id": "v2.0.yaml::13", "expected_error": "Unexpected token DIV", "student_error": "Line 10: Found a 'DIV' where a number was expected. Did you mean to use a different operator?", "label": true}
+{"test_id": "v2.0.yaml::14", "expected_error": "Unexpected token MULT", "student_error": "Line 10: Unknown symbol '*'; did you mean to use a different operator?", "label": true}
+{"test_id": "v2.0.yaml::15", "expected_error": "Unexpected token DIV", "student_error": "On line 10, you seem to have used a division symbol where a keyword or identifier was expected. Did you mean to use 'divide' instead of 'DIV'?", "label": true}
+{"test_id": "v2.0.yaml::16", "expected_error": "Unexpected token MULT", "student_error": "Line 10: Unknown operator '*'. Did you mean to use a different symbol?", "label": true}
+{"test_id": "v2.0.yaml::17", "expected_error": "Unexpected token EOF", "student_error": "Line 10: Error - Unexpected end of file. Make sure all statements are properly closed.", "label": true}
+{"test_id": "v2.0.yaml::18", "expected_error": "Unexpected token DIV", "student_error": "Line 10: Unknown symbol 'DIV' - Did you mean to use '/' instead?", "label": true}
+{"test_id": "v2.0.yaml::19", "expected_error": "Unexpected token MULT", "student_error": "Line 10: Unexpected symbol '*' near 'x'. Did you mean to use a different operator?", "label": true}
+{"test_id": "v2.0.yaml::20", "expected_error": "Missing CLOSE_PAR", "student_error": "Line 5: You forgot to close that parenthesis. Make sure every open bracket has a matching closing one!", "label": true}
+{"test_id": "v2.0.yaml::21", "expected_error": "Unexpected token CLOSE_PAR", "student_error": "On line 10, you've got a ')' where it doesn't belong. We were expecting something else here. Hint: check your function calls and make sure all parentheses match up!", "label": true}
+{"test_id": "v2.0.yaml::22", "expected_error": "Missing CLOSE_PAR", "student_error": "Line 5: ) expected here", "label": true}
+{"test_id": "v2.0.yaml::23", "expected_error": "Unexpected token CLOSE_PAR", "student_error": "Line 10: Found a ')' where it didn't belong. Expected something else here.", "label": true}
+{"test_id": "v2.0.yaml::24", "expected_error": "Unexpected token OPEN_PAR", "student_error": "Line 10: Encountered '(' when expecting a number or identifier.", "label": true}
+{"test_id": "v2.0.yaml::25", "expected_error": "Unexpected token IDEN", "student_error": "Line 5: Unexpected identifier 'myVar' found here. Did you mean to use a number or a string instead?", "label": true}
+{"test_id": "v2.0.yaml::26", "expected_error": "Unexpected token INT (expected OPEN_PAR)", "student_error": "Line 5: Expected '(' after 'INT', found 'INT' instead", "label": true}
+{"test_id": "v2.0.yaml::27", "expected_error": "Unexpected token EOL (expected CLOSE_PAR)", "student_error": "Line 7: Syntax Error - Missing closing parenthesis for this function call. Make sure all your parentheses match up!", "label": true}
+{"test_id": "v2.0.yaml::28", "expected_error": "Unexpected token INT (expected OPEN_PAR)", "student_error": "On line 5 near varA: Expected '(' but found 'INT' instead. Hint: Make sure any function calls have parentheses around their arguments.", "label": true}
+{"test_id": "v2.0.yaml::29", "expected_error": "Identifier not found", "student_error": "On line 10, the variable \"count\" was used but not defined. Make sure you declare your variables before using them.", "label": true}
+{"test_id": "v2.0.yaml::30", "expected_error": "Unexpected token IDEN", "student_error": "Line 5: Found a word where a number was expected. Did you mean to use a variable name instead of a numeral?", "label": true}
+{"test_id": "v2.0.yaml::31", "expected_error": "Unexpected token ASSIGN (expected OPEN_PAR)", "student_error": "On line 10, you put an equals sign where a parenthesis should go. Did you mean to add some values instead of assigning? Try checking if you opened the parenthesis correctly. Line: 10, Var: value", "label": true}
+{"test_id": "v2.0.yaml::32", "expected_error": "Unexpected token EOL (expected CLOSE_PAR)", "student_error": "On line 5 near var1: Expected a closing parenthesis ')' but found end of line instead.", "label": true}
+{"test_id": "v2.0.yaml::33", "expected_error": "Unexpected token INT", "student_error": "Line 5: Unknown keyword INT found. Please check your syntax near 'INT'. Expected something like a number or identifier instead.", "label": true}
+{"test_id": "v1.1.yaml::1", "expected_error": "Unexpected token EOF", "student_error": "Line 10: Syntax Error - Looks like you forgot to close something!", "label": true}
+{"test_id": "v1.1.yaml::2", "expected_error": "Unexpected token EOF", "student_error": "Line 10: Unexpected end of file. Did you forget to close that parenthesis? Check line 9 and make sure all your brackets match up!", "label": true}
+{"test_id": "v1.1.yaml::3", "expected_error": "Unexpected token EOF", "student_error": "Line 10: Found no closing symbol for this expression. Expected ')' maybe?", "label": true}
+{"test_id": "v1.1.yaml::4", "expected_error": "Unexpected token PLUS", "student_error": "Line 5: Unknown symbol '+'. Did you mean to use a number here?", "label": true}
+{"test_id": "v1.1.yaml::5", "expected_error": "Unexpected token MINUS", "student_error": "Line 5: Found a '-' where it didn't belong!", "label": true}
+{"test_id": "v1.1.yaml::6", "expected_error": "Unexpected token INT", "student_error": "Line 5: Unknown keyword INT found. Did you mean to use a different data type?", "label": true}
+{"test_id": "v1.1.yaml::7", "expected_error": "Invalid token ,", "student_error": "Line 5: Unknown symbol ',' found. Did you mean a variable or value?", "label": true}
+{"test_id": "v1.1.yaml::8", "expected_error": "Unexpected token MULT", "student_error": "Line 10: Found a '*' where it didn't belong. Expected something else here.", "label": true}
+{"test_id": "v1.1.yaml::9", "expected_error": "Unexpected token DIV", "student_error": "Line 10: Encountered an unexpected symbol '/' in your expression. Did you mean to use a different operator?", "label": true}
+{"test_id": "v1.1.yaml::10", "expected_error": "Unexpected token EOF", "student_error": "Line 10: Unexpected end of file. Did you forget to close a bracket or parenthesis?", "label": true}
+{"test_id": "v1.1.yaml::11", "expected_error": "Unexpected token EOF", "student_error": "Line 10: Found no closing symbol for the expression 'x +'. Expected ')' or ']'. Compilation halted.", "label": true}
+{"test_id": "v1.1.yaml::12", "expected_error": "Unexpected token MULT", "student_error": "Line 10: Unknown symbol '*'. Did you mean to use a different operator?", "label": true}
+{"test_id": "v1.1.yaml::13", "expected_error": "Unexpected token DIV", "student_error": "On line 10 near var x: You seem to have used 'DIV' where a number or variable is expected. Did you mean to include a value after it?", "label": true}
+{"test_id": "v1.1.yaml::14", "expected_error": "Unexpected token MULT", "student_error": "Line 10: Unknown symbol \"*\". Did you mean to use a different operator?", "label": true}
+{"test_id": "v1.1.yaml::15", "expected_error": "Unexpected token DIV", "student_error": "Line 10: Unexpected symbol / used here. Did you mean to use a different operator?", "label": true}
+{"test_id": "v1.1.yaml::16", "expected_error": "Unexpected token MULT", "student_error": "Line 10: Unknown symbol \"*\". Did you mean to use a different operator?", "label": true}
+{"test_id": "v1.1.yaml::17", "expected_error": "Unexpected token DIV", "student_error": "Line 10: Unknown symbol 'DIV' - Did you mean to use '/' instead?", "label": true}
+{"test_id": "v1.1.yaml::18", "expected_error": "Unexpected token DIV", "student_error": "Line 10: Unknown symbol 'DIV' - Did you mean to use '/' instead?", "label": true}
+{"test_id": "v1.1.yaml::19", "expected_error": "Unexpected token MULT", "student_error": "Line 10: Unknown symbol \"*\"; did you mean to use a different operator?", "label": true}
+{"test_id": "v1.1.yaml::20", "expected_error": "Unexpected token EOF", "student_error": "Line 10: Syntax error at end of file. Expected a semicolon or closing bracket here.", "label": true}
+{"test_id": "v1.1.yaml::21", "expected_error": "Unexpected token CLOSE_PAR", "student_error": "Line 10: Found a ')' where we didn't expect one. Maybe you forgot to put something inside your parentheses?", "label": true}
+{"test_id": "v1.1.yaml::22", "expected_error": "Unexpected token EOF", "student_error": "Line 10: Unexpected end of file. Make sure all tokens are properly closed.", "label": true}
+{"test_id": "v1.1.yaml::23", "expected_error": "Unexpected token CLOSE_PAR", "student_error": "Line 10: Found a ')' where it didn't belong. Expected something else here.", "label": true}
+{"test_id": "v1.2.yaml::1", "expected_error": "Unexpected token EOF", "student_error": "Line 10: Unexpected end of file. Make sure all tokens are properly closed.", "label": true}
+{"test_id": "v1.2.yaml::2", "expected_error": "Unexpected token EOF", "student_error": "Line 10: Found no closing bracket for your if statement. Make sure all blocks are properly closed.", "label": true}
+{"test_id": "v1.2.yaml::3", "expected_error": "Unexpected token EOF", "student_error": "Line 10: Found end of file instead of expected token. Please check your syntax near 'if'.", "label": true}
+{"test_id": "v1.2.yaml::4", "expected_error": "Unexpected token PLUS", "student_error": "Line 5: Found a '+' where we didn't expect it!", "label": true}
+{"test_id": "v1.2.yaml::5", "expected_error": "Unexpected token MINUS", "student_error": "Line 5: Unknown symbol '-'\n\nHint: Did you mean to use this operator elsewhere? Make sure to check your arithmetic expressions.", "label": true}
+{"test_id": "v1.2.yaml::6", "expected_error": "Unexpected token INT", "student_error": "Line 5: Unknown keyword 'INT' used here. Did you mean 'int'?", "label": true}
+{"test_id": "v1.2.yaml::7", "expected_error": "Invalid token ,", "student_error": "Line 10: Unexpected symbol ',' found. Did you mean to use a different operator?", "label": true}
+{"test_id": "v1.2.yaml::8", "expected_error": "Unexpected token MULT", "student_error": "Line 10: Unknown symbol '*'. Did you mean to use a different operator?", "label": true}
+{"test_id": "v1.2.yaml::9", "expected_error": "Unexpected token DIV", "student_error": "Line 10: Found a 'DIV' where a number was expected.", "label": true}
+{"test_id": "v1.2.yaml::10", "expected_error": "Unexpected token EOF", "student_error": "Line 10: Syntax Error - Expected a symbol here but found none. Make sure you haven't forgotten to close any brackets or parentheses.", "label": true}
+{"test_id": "v1.2.yaml::11", "expected_error": "Unexpected token EOF", "student_error": "Line 10: Error - Missing a closing bracket somewhere around here! Make sure all your brackets are paired up correctly.", "label": true}
+{"test_id": "v1.2.yaml::12", "expected_error": "Unexpected token MULT", "student_error": "Line 10: Unexpected symbol '*'. Did you mean to use a different operator?", "label": true}
+{"test_id": "v1.2.yaml::13", "expected_error": "Unexpected token DIV", "student_error": "Line 10: Unknown symbol 'DIV' - Did you mean to use '/' instead?", "label": true}
+{"test_id": "v1.2.yaml::14", "expected_error": "Unexpected token MULT", "student_error": "Line 10: Unknown symbol '*'. Did you mean to use a different operator?", "label": true}
+{"test_id": "v1.2.yaml::15", "expected_error": "Unexpected token DIV", "student_error": "Line 10: Found a 'DIV' where none was expected. Did you mean to use a different operator?", "label": true}
+{"test_id": "v1.2.yaml::16", "expected_error": "Unexpected token MULT", "student_error": "Line 10: Found a '*' where it didn't belong! Did you mean to use this here?", "label": true}
+{"test_id": "v1.2.yaml::17", "expected_error": "Unexpected token DIV", "student_error": "Line 10: Unknown operator 'DIV'. Did you mean to use '/' instead?", "label": true}
+{"test_id": "v1.2.yaml::18", "expected_error": "Unexpected token DIV", "student_error": "Line 10: Unknown operator 'DIV' - Did you mean '/'?", "label": true}
+{"test_id": "v1.2.yaml::19", "expected_error": "Unexpected token MULT", "student_error": "Line 10: Unknown symbol '*'. Did you mean to use a different operator?", "label": true}
+{"test_id": "v1.2.yaml::20", "expected_error": "Unexpected token EOF", "student_error": "Line 10: Syntax error at end of file. Expected a semicolon here.", "label": true}
+{"test_id": "v1.2.yaml::21", "expected_error": "Unexpected token CLOSE_PAR", "student_error": "Line 10: Found a closing parenthesis where none was expected. Did you mean to use an opening one instead?", "label": true}
+{"test_id": "v1.2.yaml::22", "expected_error": "Unexpected token EOF", "student_error": "Line 10: Syntax error at end of file. Expected a semicolon or closing brace.", "label": true}
+{"test_id": "v1.2.yaml::23", "expected_error": "Unexpected token CLOSE_PAR", "student_error": "Line 10: Found a closing parenthesis where none was expected. Did you mean to use an opening parenthesis?", "label": true}
+{"test_id": "v2.1.yaml::1", "expected_error": "Unexpected token EOL", "student_error": "Line 10: Error - Unexpected end of line reached. Please check the syntax near 'if'.", "label": true}
+{"test_id": "v2.1.yaml::2", "expected_error": "Unexpected token EOL", "student_error": "Line 5: Error - Found no code where expected!", "label": true}
+{"test_id": "v2.1.yaml::3", "expected_error": "Unexpected token EOL", "student_error": "Line 5: Error - Reached end of file unexpectedly. Did you forget to close a string or tag?", "label": true}
+{"test_id": "v2.1.yaml::4", "expected_error": "Unexpected token EOL", "student_error": "Line 5: Found no code where you expected a command.", "label": true}
+{"test_id": "v2.1.yaml::5", "expected_error": "Unexpected token EOL", "student_error": "On line 5 near variable `x`, you forgot to close your parentheses. Make sure all your brackets and parentheses match up!", "label": true}
+{"test_id": "v2.1.yaml::6", "expected_error": "Unexpected token INT", "student_error": "Line 5: Unknown type 'INT' used here. Did you mean 'int'?", "label": true}
+{"test_id": "v2.1.yaml::7", "expected_error": "Invalid token ,", "student_error": "Line 5: Unexpected symbol ',' found. Did you mean to use a different operator?", "label": true}
+{"test_id": "v2.1.yaml::8", "expected_error": "Unexpected token MULT", "student_error": "Line 10: Unknown symbol '*' - Did you mean to use a different operator?", "label": true}
+{"test_id": "v2.1.yaml::9", "expected_error": "Unexpected token DIV", "student_error": "Line 10: Unknown symbol 'DIV' - Did you mean 'div'?", "label": true}
+{"test_id": "v2.1.yaml::10", "expected_error": "Unexpected token EOL", "student_error": "Line 10: Error - Expected a keyword or symbol instead of an end of line here.", "label": true}
+{"test_id": "v2.1.yaml::11", "expected_error": "Unexpected token EOL", "student_error": "On line 5 near var1: Expected a value but found end of line instead. Please ensure you've assigned a number or string to your variable.", "label": true}
+{"test_id": "v2.1.yaml::12", "expected_error": "Unexpected token MULT", "student_error": "Line 10: Syntax Error - Found 'MULT' where a number was expected.", "label": true}
+{"test_id": "v2.1.yaml::13", "expected_error": "Unexpected token DIV", "student_error": "Line 10: Found a 'DIV' where a number was expected.", "label": true}
+{"test_id": "v2.1.yaml::14", "expected_error": "Unexpected token MULT", "student_error": "Line 10: Found a '*' where it didn't belong. Expected something else here.", "label": true}
+{"test_id": "v2.1.yaml::15", "expected_error": "Unexpected token DIV", "student_error": "Line 10: Unknown symbol 'DIV' - did you mean 'divide'?", "label": true}
+{"test_id": "v2.1.yaml::16", "expected_error": "Unexpected token MULT", "student_error": "Line 10: Unexpected symbol '*' near 'answer'. Did you mean to use a different operator?", "label": true}
+{"test_id": "v2.1.yaml::17", "expected_error": "Unexpected token CLOSE_BRA", "student_error": "Line 10: Encountered a closing bracket where none was expected. Did you mean to open a bracket instead?", "label": true}
+{"test_id": "v2.1.yaml::18", "expected_error": "Unexpected token DIV", "student_error": "Line 10: Unknown operator 'DIV' - Did you mean to use '/' instead?", "label": true}
+{"test_id": "v2.1.yaml::19", "expected_error": "Unexpected token MULT", "student_error": "Line 10: Unknown operator '*'. Did you mean to use a different symbol?", "label": true}
+{"test_id": "v2.1.yaml::20", "expected_error": "Missing CLOSE_PAR", "student_error": "On line 7, you forgot to close that parenthesis. Make sure all your parentheses are matched up!", "label": true}
+{"test_id": "v2.1.yaml::21", "expected_error": "Unexpected token CLOSE_PAR", "student_error": "Line 10: Found a closing parenthesis where it didn't belong. Expected something else here like a variable or number.", "label": true}
+{"test_id": "v2.1.yaml::22", "expected_error": "Missing CLOSE_PAR", "student_error": "Line 5: You forgot to close that parenthesis. Make sure every open bracket has a matching close.", "label": true}
+{"test_id": "v2.1.yaml::23", "expected_error": "Unexpected token CLOSE_PAR", "student_error": "On line 10, you seem to have forgotten to put something after a parenthesis. Make sure all parentheses are matched with numbers or variables inside them. (Line 10: ')' at the end of this expression)", "label": true}
+{"test_id": "v2.1.yaml::24", "expected_error": "Unexpected token OPEN_PAR", "student_error": "Line 10: Encountered '(' when expecting a number or identifier.", "label": true}
+{"test_id": "v2.1.yaml::25", "expected_error": "Unexpected token IDEN", "student_error": "Line 10: Unknown identifier 'username' found. Please check your variable name.", "label": true}
+{"test_id": "v2.1.yaml::26", "expected_error": "Unexpected token INT (expected OPEN_PAR)", "student_error": "On line 5, near var x:INT; expected '(' instead found 'INT'.", "label": true}
+{"test_id": "v2.1.yaml::27", "expected_error": "Unexpected token EOL (expected CLOSE_PAR)", "student_error": "Line 7: Missing a closing parenthesis somewhere around here. Make sure to check your parentheses!", "label": true}
+{"test_id": "v2.1.yaml::28", "expected_error": "Unexpected token INT (expected OPEN_PAR)", "student_error": "Line 5: Expected '(' after 'INT' instead found nothing", "label": true}
+{"test_id": "v2.1.yaml::29", "expected_error": "Identifier not found", "student_error": "On line 10, can't find where you defined \"myVar\". Make sure you've declared it before using it.", "label": true}
+{"test_id": "v2.1.yaml::30", "expected_error": "Unexpected token EOF (expected CLOSE_BRA)", "student_error": "Line 10: Found no closing bracket! Expected a ']' here.", "label": true}
+{"test_id": "v2.1.yaml::31", "expected_error": "Unexpected token CLOSE_BRA (expected EOF)", "student_error": "Line 10: Found a closing bracket when expecting the end of the file. Make sure your code ends properly!", "label": true}
+{"test_id": "v2.1.yaml::32", "expected_error": "Unexpected token IDEN", "student_error": "Line 5: Unexpected identifier 'username' found. Did you mean to use a different keyword or check your spelling?", "label": true}
+{"test_id": "v2.1.yaml::33", "expected_error": "Unexpected token ASSIGN (expected OPEN_PAR)", "student_error": "Line 10: Found '=' where '(' was expected.", "label": true}
+{"test_id": "v2.1.yaml::34", "expected_error": "Unexpected token EOL (expected CLOSE_PAR)", "student_error": "On line 7, near var(a): Expected a closing parenthesis `)` but found end of line instead.", "label": true}
+{"test_id": "v2.1.yaml::35", "expected_error": "Unexpected token INT", "student_error": "Line 5: Unknown token 'INT' found. Did you mean to use a different data type?", "label": true}
+{"test_id": "v2.1.yaml::36", "expected_error": "Missing CLOSE_BRA", "student_error": "On line 10, you forgot to close that bracket after `num`. Make sure all your brackets are properly matched. Look for a missing closing parenthesis or square bracket there!", "label": true}
+{"test_id": "v2.1.yaml::37", "expected_error": "Missing OPEN_BRA", "student_error": "Line 10: You forgot to put a left parenthesis '('. Make sure to open your parentheses when defining the function.", "label": true}
+{"test_id": "v2.1.yaml::38", "expected_error": "Missing CLOSE_BRA", "student_error": "On line 7: Expected a closing ']' for array index 'length'", "label": true}
+{"test_id": "v2.1.yaml::39", "expected_error": "Unexpected token EOF", "student_error": "Line 10: Syntax error at end of file. Expected a semicolon before ending the statement.", "label": true}
+{"test_id": "v2.1.yaml::40", "expected_error": "Unexpected token EOF", "student_error": "Line 10: Unexpected end of file. Make sure all tokens are properly closed.", "label": true}
+{"test_id": "v2.1.yaml::41", "expected_error": "Missing OPEN_BRA", "student_error": "On line 10, you forgot to open a bracket before starting your loop. Make sure to add an opening parenthesis '('. Line 10, Var x: Loop needs '('", "label": true}
+{"test_id": "v2.1.yaml::42", "expected_error": "Unexpected ELSE", "student_error": "Line 10: Found 'ELSE' without matching 'IF'", "label": true}
+{"test_id": "v2.1.yaml::43", "expected_error": "Missing Right Expression", "student_error": "On line 5, near variable `age`, you need to provide a value after the equals sign. Currently, it looks like you've started but forgotten to finish the expression.", "label": true}
+{"test_id": "v2.1.yaml::44", "expected_error": "Missing Right Expression", "student_error": "On line 7 near var1: Expected a value for this operation but found none. Please ensure both sides of the assignment have valid expressions.", "label": true}
+{"test_id": "v2.1.yaml::45", "expected_error": "Missing Right Expression", "student_error": "Line 8: The multiplication operator '*' is incomplete! It looks like you forgot to provide a value on the right side.", "label": true}
+{"test_id": "v2.1.yaml::46", "expected_error": "Missing Right Expression", "student_error": "On line 7, you forgot to put a number or variable after the plus sign. Please add an expression on the right side of the operator.", "label": true}
+{"test_id": "v2.1.yaml::47", "expected_error": "Missing OPEN_PAR", "student_error": "On line 5, you forgot to put an open parenthesis before the function call `myFunction()`. Try adding it there!", "label": true}
+{"test_id": "v2.1.yaml::48", "expected_error": "Missing CLOSE_PAR", "student_error": "On line 7, you forgot to close that parenthesis after `width`. Make sure all your parentheses are matched up!", "label": true}
+{"test_id": "v2.1.yaml::49", "expected_error": "Unexpected token INT", "student_error": "Line 5: Unknown keyword 'INT' expected a different token", "label": true}
+{"test_id": "v2.1.yaml::50", "expected_error": "Unexpected token INT", "student_error": "On line 5, you seem to have mixed up a word expecting a number. Maybe you typed 'INT' where a numeral should be? Check your variable declaration there.", "label": true}
+{"test_id": "v2.1.yaml::51", "expected_error": "Unexpected token NEWLINE Before Else", "student_error": "Line 7: Found a newline instead of an expected keyword like 'then' after your if statement. Make sure to use 'then' before any else clauses in your conditionals.", "label": true}
+{"test_id": "v2.1.yaml::52", "expected_error": "Unexpected token CLOSE_BRA in Else", "student_error": "On line 10, you've got a closing bracket where an if statement or loop should be. Make sure to check your braces around line `mainLoop`.", "label": true}
+{"test_id": "v2.1.yaml::53", "expected_error": "Unexpected token NEWLINE in Else", "student_error": "On line 10, you've got a newline character where an expression was expected. Did you mean to put something there instead?", "label": true}
+{"test_id": "v2.1.yaml::54", "expected_error": "Unexpected token NEWLINE in While", "student_error": "Line 7: Found a newline where a condition was expected in your while loop. Make sure to use parentheses for the loop condition.", "label": true}
+{"test_id": "v2.1.yaml::55", "expected_error": "Unexpected token CLOSE_BRA in While", "student_error": "On line 7 near var end: Expected an OPEN_BRA '(' but found CLOSE_BRA ')' instead. Make sure your while loop is properly formatted!", "label": true}
+{"test_id": "v2.1.yaml::56", "expected_error": "Missing OPEN_BRA in If", "student_error": "Line 10: Syntax Error - Expected '(' after 'if'", "label": true}
+{"test_id": "v2.1.yaml::57", "expected_error": "Missing OPEN_BRA in If", "student_error": "Line 10: Brackets mismatch in if statement - forgot the left bracket '('.", "label": true}
+{"test_id": "v2.1.yaml::58", "expected_error": "Missing OPEN_PAR in If", "student_error": "Line 10: Expected '(' after 'if'", "label": true}
+{"test_id": "v2.1.yaml::59", "expected_error": "Missing OPEN_PAR in While", "student_error": "On line 10, you forgot to add the '(' before your condition in the while loop. Remember, a while loop needs parentheses around its condition!", "label": true}
+{"test_id": "v2.3.yaml::0", "expected_error": "2\n24\n8\n9\n0\n1\n6\n12\n3\n1\n2\n2\n&FALSE\n&FALSE\n&TRUE\nabcdef\nabc\nabc1\n1abc\nabc&TRUE\n&TRUE\n&TRUE\n&FALSE", "student_error": "Line 5: Unexpected token '1' near 'abc'.\n\nLine 8: Invalid character '&'. Did you mean to use a boolean value?\n\nLine 10: Duplicate identifier 'abc'. Variable already defined earlier.\n\nLine 12: Incorrect format for string. Expected alphanumeric characters only.\n\nLine 14", "label": true}
+{"test_id": "v2.3.yaml::1", "expected_error": "Unexpected token EOL", "student_error": "Line 5: Unexpected end of line in expression", "label": true}
+{"test_id": "v2.3.yaml::2", "expected_error": "Unexpected token EOL", "student_error": "Line 7: Unexpected end of line reached. Did you forget a semicolon at the end of this statement?", "label": true}
+{"test_id": "v2.3.yaml::3", "expected_error": "Unexpected token EOL", "student_error": "On line 10 near varEnd, it seems you forgot to close your string literal properly. Make sure to add the missing quote at the end.", "label": true}
+{"test_id": "v2.3.yaml::4", "expected_error": "Unexpected token EOL", "student_error": "Line 5: Unexpected end of line in expression", "label": true}
+{"test_id": "v2.3.yaml::5", "expected_error": "Unexpected token EOL", "student_error": "Line 7: Unexpected end of line in expression near EOF", "label": true}
+{"test_id": "v2.3.yaml::6", "expected_error": "Unexpected token INT", "student_error": "Line 5: Unexpected number seen where a word was expected", "label": true}
+{"test_id": "v2.3.yaml::7", "expected_error": "Invalid token @", "student_error": "Line 5: Unknown symbol '@' found. Please check your syntax.", "label": true}
+{"test_id": "v2.3.yaml::8", "expected_error": "Unexpected token MULT", "student_error": "Line 7: Found a '*' where it didn't belong! Expected something like a number or variable instead.", "label": true}
+{"test_id": "v2.3.yaml::9", "expected_error": "Unexpected token DIV", "student_error": "Line 10: Unexpected symbol '/'. Did you mean to use a different operator?", "label": true}
+{"test_id": "v2.3.yaml::10", "expected_error": "Unexpected token EOL", "student_error": "Line 10: Error - Found end of file instead of expected token", "label": true}
+{"test_id": "v2.3.yaml::11", "expected_error": "Unexpected token EOL", "student_error": "Line 10: Error - Unexpected end of line in expression", "label": true}
+{"test_id": "v2.3.yaml::12", "expected_error": "Unexpected token MULT", "student_error": "Line 10: Error - Found a multiplication symbol where it didn't belong!", "label": true}
+{"test_id": "v2.3.yaml::13", "expected_error": "Unexpected token DIV", "student_error": "On line 10, you seem to have used 'DIV' where a number was expected. Did you mean to provide a value instead?", "label": true}
+{"test_id": "v2.3.yaml::14", "expected_error": "Unexpected token MULT", "student_error": "Line 10: Unknown operator * Used here", "label": true}
+{"test_id": "v2.3.yaml::15", "expected_error": "Unexpected token DIV", "student_error": "Line 10: Unexpected symbol '/'. Did you mean to use a number here?", "label": true}
+{"test_id": "v2.3.yaml::16", "expected_error": "Unexpected token MULT", "student_error": "Line 10: Unknown symbol \"*\"; did you mean to use a different operator?", "label": true}
+{"test_id": "v2.3.yaml::17", "expected_error": "Unexpected token CLOSE_BRA", "student_error": "Line 10: Found a closing bracket where an opening one was expected. Make sure you match your brackets correctly!", "label": true}
+{"test_id": "v2.3.yaml::18", "expected_error": "Unexpected token DIV", "student_error": "Line 10: Unexpected symbol '/'. Did you mean to use a different operator?", "label": true}
+{"test_id": "v2.3.yaml::19", "expected_error": "Unexpected token MULT", "student_error": "Line 10: Found a '*' where it didn't belong. Expected something else here.", "label": true}
+{"test_id": "v2.3.yaml::20", "expected_error": "Missing CLOSE_PAR", "student_error": "Line 7: You forgot to close that parenthesis. Make sure every opening bracket has a matching closing one!", "label": true}
+{"test_id": "v2.3.yaml::21", "expected_error": "Unexpected token CLOSE_PAR", "student_error": "On line 10, it seems you forgot to put a number after your closing parenthesis. Make sure to specify what you want to close!", "label": true}
+{"test_id": "v2.3.yaml::22", "expected_error": "Missing CLOSE_PAR", "student_error": "Line 10: You forgot to close that parenthesis. Make sure to add a closing ')' somewhere here!", "label": true}
+{"test_id": "v2.3.yaml::23", "expected_error": "Unexpected token CLOSE_PAR", "student_error": "Line 10: Found a ')', but expected something else here. Check your parentheses!", "label": true}
+{"test_id": "v2.3.yaml::24", "expected_error": "Unexpected token OPEN_PAR", "student_error": "Line 5: Found a '(' where it didn't belong. Expected something else here.", "label": true}
+{"test_id": "v2.3.yaml::25", "expected_error": "Unexpected token IDEN", "student_error": "Line 5: Found a word where a number was expected. Did you mean to use a variable instead of a constant?", "label": true}
+{"test_id": "v2.3.yaml::26", "expected_error": "Unexpected token INT (expected OPEN_PAR)", "student_error": "Line 5: Found 'INT' where '(' was expected.", "label": true}
+{"test_id": "v2.3.yaml::27", "expected_error": "Unexpected token EOL (expected CLOSE_PAR)", "student_error": "On line 7, near var1: Expected a closing parenthesis ')' but found end of line instead. Make sure you've closed all your parentheses correctly.", "label": true}
+{"test_id": "v2.3.yaml::28", "expected_error": "Unexpected token INT (expected OPEN_PAR)", "student_error": "Line 5: Expected '(' after 'INT' instead found nothing", "label": true}
+{"test_id": "v2.3.yaml::29", "expected_error": "Identifier not found", "student_error": "On line 7, the variable \"userInput\" was used but hasn't been defined yet. Make sure you declare it before using it in your code.", "label": true}
+{"test_id": "v2.3.yaml::30", "expected_error": "Unexpected token EOF (expected CLOSE_BRA)", "student_error": "On line 10 near varA: Expected a closing bracket but found end of file instead.", "label": true}
+{"test_id": "v2.3.yaml::31", "expected_error": "Unexpected token FUNC or OPEN_PAR", "student_error": "Line 5: Encountered unexpected symbol 'FUNC' or '(' - expected a different type of token here.", "label": true}
+{"test_id": "v2.3.yaml::32", "expected_error": "Unexpected token CLOSE_BRA (expected EOF)", "student_error": "Line 10: Found a closing bracket when expecting the end of the file. Make sure your code ends correctly!", "label": true}
+{"test_id": "v2.3.yaml::33", "expected_error": "Unexpected token IDEN (expected OPEN_BRA)", "student_error": "On line 5, near varName: Expected to find an opening bracket `(` but found variable name instead.", "label": true}
+{"test_id": "v2.3.yaml::34", "expected_error": "Unexpected token EOF (expected OPEN_BRA)", "student_error": "On line 10 near varA, expected an opening parenthesis '('. Current token is end of input.", "label": true}
+{"test_id": "v2.3.yaml::35", "expected_error": "Unexpected token IDEN", "student_error": "Line 5: Expected a number or symbol after 'myVar', found word instead. Did you mean to use a number or add some math symbols?", "label": true}
+{"test_id": "v2.3.yaml::36", "expected_error": "Unexpected token ASSIGN (expected OPEN_PAR)", "student_error": "Line 10: Unexpected '=', expected '(' near 'ASSIGN'. Hint: Check your function call syntax.", "label": true}
+{"test_id": "v2.3.yaml::37", "expected_error": "Unexpected token EOL (expected CLOSE_PAR)", "student_error": "Line 7: Expected a closing parenthesis ')' but found end of line instead.", "label": true}
+{"test_id": "v2.3.yaml::38", "expected_error": "Unexpected token INT", "student_error": "Line 5: Unexpected number keyword INT found. Please check your syntax near 'INT'. Expected something like a variable name or a different data type.", "label": true}
+{"test_id": "v2.3.yaml::39", "expected_error": "Missing CLOSE_BRA", "student_error": "Line 5: Brackets don't match up! Make sure you close that opening bracket '('.", "label": true}
+{"test_id": "v2.3.yaml::40", "expected_error": "Missing OPEN_BRA", "student_error": "On line 7, you forgot to open a parenthesis before your function call. Remember to add an opening parenthesis '(' before 'func'.", "label": true}
+{"test_id": "v2.3.yaml::41", "expected_error": "Missing CLOSE_BRA", "student_error": "On line 7, you forgot to close that parenthesis. Make sure every open parenthesis has a matching closing one!", "label": true}
+{"test_id": "v2.3.yaml::42", "expected_error": "Unexpected token EOF", "student_error": "Line 10: Expected a semicolon at the end of this statement. You might have forgotten to finish it properly.", "label": true}
+{"test_id": "v2.3.yaml::43", "expected_error": "Unexpected token EOF", "student_error": "Line 10: Unexpected end of file. Make sure all tokens are properly closed.", "label": true}
+{"test_id": "v2.3.yaml::44", "expected_error": "Missing OPEN_BRA", "student_error": "Line 5: Found a close bracket instead of an open one for your function call. Make sure to add '(' before 'num1'.", "label": true}
+{"test_id": "v2.3.yaml::45", "expected_error": "Unexpected ELSE", "student_error": "Line 10: Syntax Error - Found 'ELSE' without matching IF", "label": true}
+{"test_id": "v2.3.yaml::46", "expected_error": "Missing Right Expression", "student_error": "On line 10 near var x = 5 + ; \nYou seem to have forgotten to provide a number after the plus sign. Please make sure both sides of the operator have values.", "label": true}
+{"test_id": "v2.3.yaml::47", "expected_error": "Missing Right Expression", "student_error": "On line 7 in your code, you forgot to add a value after the minus sign for `age`. Make sure both sides of `-` have something to work with. Try checking line 7 again!", "label": true}
+{"test_id": "v2.3.yaml::48", "expected_error": "Missing Right Expression", "student_error": "On line 10, you forgot to add a value for the variable `age`. Make sure both sides of the assignment have something!", "label": true}
+{"test_id": "v2.3.yaml::49", "expected_error": "Missing Right Expression", "student_error": "On line 7, it seems you forgot to provide a number for the operation after the minus sign. Please add a value to complete the expression.", "label": true}
+{"test_id": "v2.3.yaml::50", "expected_error": "Missing OPEN_PAR", "student_error": "Line 5: Brackets are missing! Did you forget a '('?", "label": true}
+{"test_id": "v2.3.yaml::51", "expected_error": "Missing CLOSE_PAR", "student_error": "Line 8: You forgot to close that parenthesis. Make sure to add a closing ')' somewhere here.", "label": true}
+{"test_id": "v2.3.yaml::52", "expected_error": "Unexpected token INT", "student_error": "Line 5: Unknown keyword 'INT' used here. Did you mean 'int'?", "label": true}
+{"test_id": "v2.3.yaml::53", "expected_error": "Unexpected token INT", "student_error": "Line 5: Unknown type at this position - expected something like a number or a string instead of INT.", "label": true}
+{"test_id": "v2.3.yaml::54", "expected_error": "Unexpected token NEWLINE Before Else", "student_error": "On line 7, it seems you forgot to link your 'else' statement with a condition. Make sure to connect 'else' with a ':'. Example: `if (x == 0) { ... } else: {...}`", "label": true}
+{"test_id": "v2.3.yaml::55", "expected_error": "Unexpected token CLOSE_BRA in Else", "student_error": "On line 10, you've got a closing bracket where an if statement or loop should be. Expected something like 'if' or 'for' instead.", "label": true}
+{"test_id": "v2.3.yaml::56", "expected_error": "Unexpected token NEWLINE in Else", "student_error": "Line 10: Unexpected newline character found after 'else' - expected a statement or condition here.", "label": true}
+{"test_id": "v2.3.yaml::57", "expected_error": "Unexpected token NEWLINE in While", "student_error": "Line 10: Unexpected newline character outside a string or statement block. Consider removing it or wrapping it properly in a statement.", "label": true}
+{"test_id": "v2.3.yaml::58", "expected_error": "Unexpected token CLOSE_BRA in While", "student_error": "Line 10: Found a closing bracket where it doesn't belong. Expected something like a keyword or variable instead.", "label": true}
+{"test_id": "v2.3.yaml::59", "expected_error": "Missing OPEN_BRA in If", "student_error": "Line 10: Error: The '(' is missing before the condition in the if statement. Please make sure to include it.", "label": true}
+{"test_id": "v2.3.yaml::60", "expected_error": "Missing OPEN_BRA in If", "student_error": "Line 10: Syntax Error - Expecting '(' before 'if'", "label": true}
+{"test_id": "v2.3.yaml::61", "expected_error": "Missing OPEN_PAR in If", "student_error": "Line 5: Expected an opening parenthesis '('. Make sure you didn't forget it in your if statement.", "label": true}
+{"test_id": "v2.3.yaml::62", "expected_error": "Missing OPEN_PAR in While", "student_error": "On line 7, you forgot to put an opening parenthesis before your while condition. Please add '('.", "label": true}
+{"test_id": "v2.3.yaml::63", "expected_error": "COLON not found", "student_error": "On line 10, you forgot to add a colon : after the loop keyword. Remember, every loop needs a colon at the end!", "label": true}
+{"test_id": "v2.3.yaml::64", "expected_error": "COLON not found", "student_error": "On line 7, you forgot to include a colon after the if statement. Remember to add a colon right after 'if' to indicate the start of the condition block.", "label": true}
+{"test_id": "v2.3.yaml::65", "expected_error": "TYPE not found", "student_error": "Error on line 10: Can't recognize type 'INT' for variable 'age'. Make sure you've declared it correctly.", "label": true}
+{"test_id": "v2.3.yaml::66", "expected_error": "Unexpected Identifier", "student_error": "Line 10: Unknown token 'if'. Did you mean to use a keyword instead?", "label": true}
+{"test_id": "v2.3.yaml::67", "expected_error": "Incompatible types", "student_error": "Error: Type mismatch on line 10 near variable `age`. Expected integer but found string.", "label": true}
+{"test_id": "v2.3.yaml::68", "expected_error": "Incompatible types", "student_error": "Error: Type mismatch on line 10 near variable `age`. Expected integer but found string.", "label": true}
+{"test_id": "v2.3.yaml::69", "expected_error": "Incompatible types", "student_error": "Error: The data types don't match at line 10. Expected int but found string. Hint: Check the variable \"age\" and make sure it holds a number.", "label": true}
+{"test_id": "v2.3.yaml::70", "expected_error": "Incompatible types", "student_error": "Error: Type mismatch on line 10 near variable `age`. Expected integer but found string.", "label": true}
+{"test_id": "v2.3.yaml::71", "expected_error": "Incompatible types", "student_error": "Error: The types used don't match at line 10. Expected an integer but found a string. Make sure to use compatible data types in your assignments and comparisons.", "label": true}
+{"test_id": "v2.3.yaml::72", "expected_error": "Incompatible types", "student_error": "Error: Type mismatch on line 10 near variable `age`. Expected integer but found string.", "label": true}
+{"test_id": "v2.3.yaml::73", "expected_error": "Incompatible types", "student_error": "Error: Expected integer but found string on line 10 near var a = \"hello\". Hint: Make sure variable types match in your assignments.", "label": true}
+{"test_id": "v2.3.yaml::74", "expected_error": "Incompatible types", "student_error": "Line 10: Type mismatch found! The variable `age` is expected to be an integer but got a string value instead.", "label": true}
+{"test_id": "v2.3.yaml::75", "expected_error": "Variable Already Declared", "student_error": "Error on line 10: Variable \"x\" has already been defined.", "label": true}
+{"test_id": "v2.3.yaml::76", "expected_error": "Unexpected EOF", "student_error": "Line 10: Expected more code here! The program suddenly ends without a closing brace somewhere nearby.", "label": true}
+{"test_id": "v2.3.yaml::77", "expected_error": "Variable not found", "student_error": "Line 10: Can't find 'x' here. Did you mean to declare it first?", "label": true}
+{"test_id": "v2.3.yaml::78", "expected_error": "Incompatible Types", "student_error": "Line 10: Variable `age` cannot be assigned a string value. Expected an integer.", "label": true}
+{"test_id": "v2.3.yaml::79", "expected_error": "Incompatible Types", "student_error": "Error: The types don't match at line 12. Expected an integer but found a string for variable age.", "label": true}
+{"test_id": "v2.3.yaml::80", "expected_error": "Incompatible Types", "student_error": "Error: The types used don't match at line 10. Expected int but found char. Hint: Check variable type definitions.", "label": true}
+{"test_id": "v2.3.yaml::81", "expected_error": "Incompatible Types", "student_error": "Error: The types used don't match at line 10. Ensure that the variable `age` is being assigned an integer value instead of a string.", "label": true}
+{"test_id": "v2.3.yaml::82", "expected_error": "Incompatible Types", "student_error": "Error: Type mismatch on line 10. Variable 'age' expected a number, but found a string.", "label": true}
+{"test_id": "v2.3.yaml::83", "expected_error": "Incompatible Types", "student_error": "Error: The types used here don't match up. Line 10, variables 'a' and 'b' are of different types. Check their definitions.", "label": true}
+{"test_id": "v2.3.yaml::84", "expected_error": "Incompatible Types", "student_error": "Error: Expected integer but found string at line 10 near var age. Make sure to use the correct data type!", "label": true}
+{"test_id": "v2.3.yaml::85", "expected_error": "Incompatible Types", "student_error": "Error: Expected integer but found string at line 10 near var age = \"twenty\". Line 12 also has an issue with type mismatch. Hint: Make sure variables match their data types.", "label": true}
+{"test_id": "v2.3.yaml::86", "expected_error": "Incompatible Types", "student_error": "Error: The types don't match at line 12. Expected an integer but found a string.", "label": true}
+{"test_id": "v2.3.yaml::87", "expected_error": "Incompatible Types", "student_error": "Error: The types used don't match at line 10. Expected an integer but found a string. Make sure to use compatible data types in your assignments and comparisons.", "label": true}
+{"test_id": "v2.3.yaml::88", "expected_error": "Incompatible Types", "student_error": "Error on line 10: Can't match int with string. Variable 'age' expected an int but got a string instead.", "label": true}
+{"test_id": "v2.3.yaml::89", "expected_error": "Incompatible Types", "student_error": "Error: The types used don't match at line 15. Expected an integer but found a string.", "label": true}
+{"test_id": "v2.3.yaml::90", "expected_error": "Incompatible Types", "student_error": "Error: The types used here don't match up. Make sure you're using compatible data types on line 10 with var x.", "label": true}
+{"test_id": "v2.3.yaml::91", "expected_error": "Incompatible Types", "student_error": "Error: The types used in this operation don't match up. Make sure you're using compatible data types on line 12 with var x and var y. Line 12: x + y", "label": true}
+{"test_id": "v2.3.yaml::92", "expected_error": "Incompatible Type", "student_error": "Error: Expected integer but found string on line 10 near var age.", "label": true}
+{"test_id": "v2.3.yaml::93", "expected_error": "Incompatible Type", "student_error": "Error: Expected integer but found string on line 10 near var age = \"twenty\".", "label": true}
+{"test_id": "v2.3.yaml::94", "expected_error": "Incompatible Type", "student_error": "Line 10: Variable `age` expected an integer value, but got a string. Make sure to use the correct data type!", "label": true}
+{"test_id": "v2.3.yaml::95", "expected_error": "Incompatible Type", "student_error": "Line 10: Variable `age` cannot hold a string value. Expected an integer.", "label": true}
+{"test_id": "v2.3.yaml::96", "expected_error": "Incompatible Type", "student_error": "Error: Expected an integer but found a string at line 10 near var age = \"twenty\". Hint: Make sure to use the correct data type for variables.", "label": true}
+{"test_id": "v2.3.yaml::97", "expected_error": "Incompatible Type", "student_error": "Error: Expected integer but found string on line 10 near var age = \"twenty\". Please ensure variable types match their assignments.", "label": true}
+{"test_id": "v2.3.yaml::98", "expected_error": "Incompatible Type", "student_error": "Error: Expected integer but found string on line 10 near var age = \"twenty\". Hint: Make sure variable types match in your assignments. Line 10: var age = \"twenty\"", "label": true}
+{"test_id": "v2.3.yaml::99", "expected_error": "Incompatible Type", "student_error": "Line 10: Variable `age` expected an integer value but got a string instead. Make sure to use the correct data type!", "label": true}
+{"test_id": "v2.3.yaml::100", "expected_error": "Incompatible Type", "student_error": "Error: The types used don't match at line 10. Make sure you're using compatible data types for this operation. Line 10: `result = num1 + str1`", "label": true}
+{"test_id": "v2.3.yaml::101", "expected_error": "Incompatible Type", "student_error": "Error: Expected integer but found string on line 10 near var age = \"twenty\".", "label": true}
+{"test_id": "v2.3.yaml::102", "expected_error": "Incompatible Type", "student_error": "Error on line 10: Variable `age` expected to be a number, but found text instead.", "label": true}
+{"test_id": "v2.3.yaml::103", "expected_error": "Missing function type", "student_error": "Error at line 10: Function 'calculateArea' needs its return type specified.", "label": true}
+{"test_id": "v2.3.yaml::104", "expected_error": "Missing function main", "student_error": "Line 1: Function 'main' is missing. Make sure your program includes a 'main' function to run your code.", "label": true}
+{"test_id": "v2.3.yaml::105", "expected_error": "Missing second arg", "student_error": "On line 5, you forgot to provide a value for the function call to `printStats`. Please supply both required arguments. Line: 5, Func: printStats", "label": true}
+{"test_id": "v2.3.yaml::106", "expected_error": "Missing second arg", "student_error": "On line 5, you forgot to provide a value for the function call to `printStats`. Make sure both parentheses have something inside them, like so: `printStats(10)`.", "label": true}
+{"test_id": "v2.3.yaml::107", "expected_error": "Number of args wrong", "student_error": "Error: Incorrect number of arguments provided. Expected 2 but received 1 on line 7 near var x. Hint: Check your function call for `calculate`.", "label": true}
+{"test_id": "v2.3.yaml::108", "expected_error": "Number of args wrong", "student_error": "Line 10: Expected 2 arguments but got 3 for function call `addNumbers`. Please check your parameters.", "label": true}
+{"test_id": "v2.3.yaml::109", "expected_error": "Wrong arg type", "student_error": "On line 10, you tried to pass a string where an integer was expected. Make sure to check the types when calling functions!", "label": true}
+{"test_id": "v2.3.yaml::110", "expected_error": "Wrong func return type", "student_error": "Error: Function returns wrong type. Expected int but got float on line 10 near var length.", "label": true}
+{"test_id": "v2.3.yaml::111", "expected_error": "Function not found", "student_error": "Error: Could not find function definition on line 10. Make sure you've declared your function before using it!", "label": true}
+{"test_id": "v2.3.yaml::112", "expected_error": "Function not found", "student_error": "Line 10: Error - Can't find function 'myFunc'", "label": true}
+{"test_id": "v2.3.yaml::113", "expected_error": "Function not found", "student_error": "Line 10: Unable to find function 'calcArea'. Did you mean 'calculateArea'?", "label": true}
+{"test_id": "v2.3.yaml::114", "expected_error": "Invalid return in a void function", "student_error": "Line 10: You can't return a value from this type of function. Function `main` should not have any return values.", "label": true}
+{"test_id": "v2.2.yaml::1", "expected_error": "Unexpected token EOL", "student_error": "Line 7: Found no code where there should be an end of statement.", "label": true}
+{"test_id": "v2.2.yaml::2", "expected_error": "Unexpected token EOL", "student_error": "Line 5: Syntax error at end of line. Expected a closing bracket for function 'addNumbers'.", "label": true}
+{"test_id": "v2.2.yaml::3", "expected_error": "Unexpected token EOL", "student_error": "Line 5: Error - Unexpected end of line in expression", "label": true}
+{"test_id": "v2.2.yaml::4", "expected_error": "Unexpected token EOL", "student_error": "Line 10: Unexpected end of line. Did you forget a semicolon?", "label": true}
+{"test_id": "v2.2.yaml::5", "expected_error": "Unexpected token EOL", "student_error": "Line 7: Syntax error at end of line. Expected something after this.", "label": true}
+{"test_id": "v2.2.yaml::6", "expected_error": "Unexpected token INT", "student_error": "Line 5: Unknown keyword 'INT' used here. Did you mean 'int'?", "label": true}
+{"test_id": "v2.2.yaml::7", "expected_error": "Invalid token ,", "student_error": "Line 5: Unknown symbol ',' encountered. Please check your syntax.", "label": true}
+{"test_id": "v2.2.yaml::8", "expected_error": "Unexpected token MULT", "student_error": "Line 10: Unrecognized operator *", "label": true}
+{"test_id": "v2.2.yaml::9", "expected_error": "Unexpected token DIV", "student_error": "Line 10: Unknown operator 'DIV' - Did you mean to use '/' instead?", "label": true}
+{"test_id": "v2.2.yaml::10", "expected_error": "Unexpected token EOL", "student_error": "Line 7: Unexpected end of line in expression. Make sure your statement is complete.", "label": true}
+{"test_id": "v2.2.yaml::11", "expected_error": "Unexpected token EOL", "student_error": "Line 10: Expected a keyword or identifier instead of an end of line. Please check your syntax near 'foo'.", "label": true}
+{"test_id": "v2.2.yaml::12", "expected_error": "Unexpected token MULT", "student_error": "Line 10: Syntax error near 'MULT'. Expected a different token here.", "label": true}
+{"test_id": "v2.2.yaml::13", "expected_error": "Unexpected token DIV", "student_error": "On line 10, you seem to have used 'DIV' where a number was expected. Did you mean to provide a value instead?", "label": true}
+{"test_id": "v2.2.yaml::14", "expected_error": "Unexpected token MULT", "student_error": "Line 10: Unexpected symbol '*' near 'MULT'. Did you mean to use a different operator?", "label": true}
+{"test_id": "v2.2.yaml::15", "expected_error": "Unexpected token DIV", "student_error": "Line 10: Unexpected symbol '/'. Did you mean to use a number here?", "label": true}
+{"test_id": "v2.2.yaml::16", "expected_error": "Unexpected token MULT", "student_error": "Line 10: Unknown symbol '*'. Did you mean to use a different operator?", "label": true}
+{"test_id": "v2.2.yaml::17", "expected_error": "Unexpected token CLOSE_BRA", "student_error": "On line 10, you seem to have closed a bracket too early. Make sure to balance your brackets properly. Expected something like a variable or value instead of a closing bracket.", "label": true}
+{"test_id": "v2.2.yaml::18", "expected_error": "Unexpected token DIV", "student_error": "Line 10: Unknown symbol 'DIV' - Did you mean to use '/' instead?", "label": true}
+{"test_id": "v2.2.yaml::19", "expected_error": "Unexpected token MULT", "student_error": "Line 10: Unexpected symbol *, did you mean to use a different operator?", "label": true}
+{"test_id": "v2.2.yaml::20", "expected_error": "Missing CLOSE_PAR", "student_error": "Line 5: You forgot to close that parenthesis. Make sure every open parenthesis has a matching one.", "label": true}
+{"test_id": "v2.2.yaml::21", "expected_error": "Unexpected token CLOSE_PAR", "student_error": "Line 10: Unexpected ')'. Did you mean to use this here? Make sure all your parentheses are matched!", "label": true}
+{"test_id": "v2.2.yaml::22", "expected_error": "Missing CLOSE_PAR", "student_error": "On line 7, your code is missing a closing parenthesis after `print`. Make sure to add it to balance out the opening one.", "label": true}
+{"test_id": "v2.2.yaml::23", "expected_error": "Unexpected token CLOSE_PAR", "student_error": "On line 10, you seem to have closed a parenthesis too early. Make sure to balance your parentheses correctly around the `printMessage` function call.", "label": true}
+{"test_id": "v2.2.yaml::24", "expected_error": "Unexpected token OPEN_PAR", "student_error": "On line 10, you seem to have opened a parenthesis but forgot to close it. Make sure all your parentheses are properly closed. Line 10: `if(x (`", "label": true}
+{"test_id": "v2.2.yaml::25", "expected_error": "Unexpected token IDEN", "student_error": "Line 5: Unexpected identifier 'username' found. Expected a different kind of token here.", "label": true}
+{"test_id": "v2.2.yaml::26", "expected_error": "Unexpected token INT (expected OPEN_PAR)", "student_error": "Line 5: Syntax error near 'INT'. Expected '(' here.", "label": true}
+{"test_id": "v2.2.yaml::27", "expected_error": "Unexpected token EOL (expected CLOSE_PAR)", "student_error": "On line 7, you forgot to close the parenthesis for the print function. Make sure to add the matching closing bracket `)` to fix this issue.", "label": true}
+{"test_id": "v2.2.yaml::28", "expected_error": "Unexpected token INT (expected OPEN_PAR)", "student_error": "Line 5: Expected '(' after 'INT' instead found a keyword.", "label": true}
+{"test_id": "v2.2.yaml::29", "expected_error": "Identifier not found", "student_error": "On line 10, you tried to use a variable named 'userInput' that hasn't been defined yet. Make sure to declare it before using it in your program.", "label": true}
+{"test_id": "v2.2.yaml::30", "expected_error": "Unexpected token EOF (expected CLOSE_BRA)", "student_error": "Line 10: Error - Missing closing bracket somewhere around here!", "label": true}
+{"test_id": "v2.2.yaml::31", "expected_error": "Unexpected token CLOSE_BRA (expected EOF)", "student_error": "Line 10: Found a closing bracket where none was expected. Please check if you forgot to add some code before this closing bracket.", "label": true}
+{"test_id": "v2.2.yaml::32", "expected_error": "Unexpected token IDEN", "student_error": "Line 10: Unknown identifier 'username' found. Please check your variable name.", "label": true}
+{"test_id": "v2.2.yaml::33", "expected_error": "Unexpected token ASSIGN (expected OPEN_PAR)", "student_error": "Line 10: Found '=' where '(' was expected.", "label": true}
+{"test_id": "v2.2.yaml::34", "expected_error": "Unexpected token EOL (expected CLOSE_PAR)", "student_error": "On line 7 near var1: Expected a closing parenthesis ')' but found end of line instead. Make sure you have properly closed your function call or expression.", "label": true}
+{"test_id": "v2.2.yaml::35", "expected_error": "Unexpected token INT", "student_error": "Line 5: Unknown keyword 'INT' expected a different token", "label": true}
+{"test_id": "v2.2.yaml::36", "expected_error": "Missing CLOSE_BRA", "student_error": "On line 10, you forgot to close that parenthesis. Make sure all your parentheses match up!", "label": true}
+{"test_id": "v2.2.yaml::37", "expected_error": "Missing OPEN_BRA", "student_error": "Line 10: You forgot to open a parenthesis before the function call. Make sure to add '('.", "label": true}
+{"test_id": "v2.2.yaml::38", "expected_error": "Missing CLOSE_BRA", "student_error": "On line 7, you forgot to close that parenthesis. Make sure all your parentheses are paired up!", "label": true}
+{"test_id": "v2.2.yaml::39", "expected_error": "Unexpected token EOF", "student_error": "Line 10: Unexpected end of file encountered. Did you forget to close a bracket or parenthesis?", "label": true}
+{"test_id": "v2.2.yaml::40", "expected_error": "Unexpected token EOF", "student_error": "Line 10: Encountered end of file unexpectedly; expected a semicolon.", "label": true}
+{"test_id": "v2.2.yaml::41", "expected_error": "Missing OPEN_BRA", "student_error": "On line 5, you forgot to open a parenthesis before your function call. Make sure to add an opening bracket '('.", "label": true}
+{"test_id": "v2.2.yaml::42", "expected_error": "Unexpected ELSE", "student_error": "On line 10, you've got an extra ELSE without a matching IF. Check line 9 to make sure everything is paired up right!", "label": true}
+{"test_id": "v2.2.yaml::43", "expected_error": "Missing Right Expression", "student_error": "On line 7, it seems you forgot to add a value after the minus sign next to `age`. Make sure both sides of `-` have something after them. Example: `score - 50`.", "label": true}
+{"test_id": "v2.2.yaml::44", "expected_error": "Missing Right Expression", "student_error": "On line 7, you forgot to add a value after the plus sign for `num1 +`. Please include an expression on the right side of the operator.", "label": true}
+{"test_id": "v2.2.yaml::45", "expected_error": "Missing Right Expression", "student_error": "On line 7 near varX: Expected a value for this operation but found none. Please ensure both sides of the equation have values.", "label": true}
+{"test_id": "v2.2.yaml::46", "expected_error": "Missing Right Expression", "student_error": "Line 10: Error - No value found for the operation on the right side of the '=' sign. Please ensure both sides have values.", "label": true}
+{"test_id": "v2.2.yaml::47", "expected_error": "Missing OPEN_PAR", "student_error": "Line 7: You forgot to open a parenthesis before the function call. Try adding one before `func()`.", "label": true}
+{"test_id": "v2.2.yaml::48", "expected_error": "Missing CLOSE_PAR", "student_error": "On line 10, you forgot to close that parentheses. Make sure every open parenthesis has a matching closing one!", "label": true}
+{"test_id": "v2.2.yaml::49", "expected_error": "Unexpected token INT", "student_error": "Line 5: Unknown keyword 'INT' used here. Did you mean 'int'?", "label": true}
+{"test_id": "v2.2.yaml::50", "expected_error": "Unexpected token INT", "student_error": "Line 5: Unknown keyword INT found. Did you mean to use a different data type?", "label": true}
+{"test_id": "v2.2.yaml::51", "expected_error": "Unexpected token NEWLINE Before Else", "student_error": "Line 7: Found a newline instead of an expected keyword like 'then' or 'elif'. Make sure your 'else' statement is properly aligned.", "label": true}
+{"test_id": "v2.2.yaml::52", "expected_error": "Unexpected token CLOSE_BRA in Else", "student_error": "On line 10, you've got a closing bracket } in your else statement where it doesn't belong. Make sure to match your opening and closing braces correctly!", "label": true}
+{"test_id": "v2.2.yaml::53", "expected_error": "Unexpected token NEWLINE in Else", "student_error": "On line 10 near ifEnd: Expected a statement but found newline instead. Please ensure all blocks have statements.", "label": true}
+{"test_id": "v2.2.yaml::54", "expected_error": "Unexpected token NEWLINE in While", "student_error": "Line 10: Unexpected newline encountered instead of a keyword or identifier in a While statement. Please ensure the condition is correctly written after 'While'.", "label": true}
+{"test_id": "v2.2.yaml::55", "expected_error": "Unexpected token CLOSE_BRA in While", "student_error": "Line 10: Encountered a closing bracket where a condition was expected. Check your while statement for a mismatched symbol.", "label": true}
+{"test_id": "v2.2.yaml::56", "expected_error": "Missing OPEN_BRA in If", "student_error": "Line 10: Syntax Error - If statement expects an opening parenthesis '(' before the condition. Make sure you didn't forget to type it!", "label": true}
+{"test_id": "v2.2.yaml::57", "expected_error": "Missing OPEN_BRA in If", "student_error": "Line 10: Found a problem with your condition. You seem to be missing an opening bracket ('(') before your 'if' statement. Make sure to include it!", "label": true}
+{"test_id": "v2.2.yaml::58", "expected_error": "Missing OPEN_PAR in If", "student_error": "Line 7: You forgot to put the ( before your if condition. Add an open parenthesis to fix it!", "label": true}
+{"test_id": "v2.2.yaml::59", "expected_error": "Missing OPEN_PAR in While", "student_error": "Line 10: Expected '(' after 'while' keyword", "label": true}
+{"test_id": "v2.2.yaml::60", "expected_error": "COLON not found", "student_error": "On line 10, the : symbol is missing after the variable name `age:`. Please ensure you include it to separate the variable name from its value.", "label": true}
+{"test_id": "v2.2.yaml::61", "expected_error": "COLON not found", "student_error": "On line 10, the : symbol is missing after the variable name `age`. Please ensure that you have correctly formatted your colon when declaring variables.", "label": true}
+{"test_id": "v2.2.yaml::62", "expected_error": "TYPE not found", "student_error": "Line 10: Can't find type for 'number'! Make sure it's defined somewhere.", "label": true}
+{"test_id": "v2.2.yaml::63", "expected_error": "Unexpected Identifier", "student_error": "Line 10: Unknown symbol 'myVar' used here. Did you mean to define it before using?", "label": true}
+{"test_id": "v2.2.yaml::64", "expected_error": "Incompatible types", "student_error": "Type mismatch on line 10 near variable `age`. Expected a number but found a string.", "label": true}
+{"test_id": "v2.2.yaml::65", "expected_error": "Incompatible types", "student_error": "Line 10: Type mismatch found. Expected integer but got string.", "label": true}
+{"test_id": "v2.2.yaml::66", "expected_error": "Incompatible types", "student_error": "Error on line 10: Variable 'age' cannot be assigned a string value. Expected an integer instead.", "label": true}
+{"test_id": "v2.2.yaml::67", "expected_error": "Incompatible types", "student_error": "Error: Expected int but found char at line 10 near x. Make sure you're using the right data type!", "label": true}
+{"test_id": "v2.2.yaml::68", "expected_error": "Incompatible types", "student_error": "Error: Type mismatch found at line 10. Expected integer but got string instead for variable `age`. Please ensure the data type matches the variable assignment.", "label": true}
+{"test_id": "v2.2.yaml::69", "expected_error": "Incompatible types", "student_error": "Error: Expected integer but found string on line 10 near var age = \"twenty\".", "label": true}
+{"test_id": "v2.2.yaml::70", "expected_error": "Incompatible types", "student_error": "Type mismatch at line 10 in variable 'age' - expected integer, found string.", "label": true}
+{"test_id": "v2.2.yaml::71", "expected_error": "Incompatible types", "student_error": "Error: Type mismatch on line 10. Variable 'age' expected an integer but found a string.", "label": true}
+{"test_id": "v2.2.yaml::72", "expected_error": "Variable Already Declared", "student_error": "Line 10: Variable \"x\" already defined", "label": true}
+{"test_id": "v2.2.yaml::73", "expected_error": "Unexpected EOF", "student_error": "Line 10: Unexpected end of file. Make sure you didn't forget to close any brackets or quotes.", "label": true}
+{"test_id": "v2.2.yaml::74", "expected_error": "Variable not found", "student_error": "On line 5: Can't find the variable 'age' in this scope. Make sure you've declared it before using it!", "label": true}
+{"test_id": "v2.2.yaml::75", "expected_error": "Incompatible Types", "student_error": "Error: Type mismatch found at line 10. Expected int but got string for variable age.", "label": true}
+{"test_id": "v2.2.yaml::76", "expected_error": "Incompatible Types", "student_error": "Line 10: Expected an integer but found a string in your expression. Make sure you're using the right type for this operation.", "label": true}
+{"test_id": "v2.2.yaml::77", "expected_error": "Incompatible Types", "student_error": "Error: Expected integer but found string at line 10 near var age = \"twenty\". Line 12 also shows a similar issue with var height = \"six feet\". Please ensure variables match their assigned data types.", "label": true}
+{"test_id": "v2.2.yaml::78", "expected_error": "Incompatible Types", "student_error": "Line 10: Type mismatch! Expected an integer but found a string. Make sure you're using the correct variable types.", "label": true}
+{"test_id": "v2.2.yaml::79", "expected_error": "Incompatible Types", "student_error": "Error: The types used here don't match up. Make sure you're using compatible data types on line 12 with var x.", "label": true}
+{"test_id": "v2.2.yaml::80", "expected_error": "Incompatible Types", "student_error": "Error: Type mismatch on line 10. Variable 'age' expected a number but found a string. Make sure to use the correct data type!", "label": true}
+{"test_id": "v2.2.yaml::81", "expected_error": "Incompatible Types", "student_error": "Error: Type mismatch on line 10. Variable 'age' expects an integer value but found a string.", "label": true}
+{"test_id": "v2.2.yaml::82", "expected_error": "Incompatible Types", "student_error": "Line 10: Can't mix numbers and words here! Expected both to be the same type.", "label": true}
+{"test_id": "v2.2.yaml::83", "expected_error": "Incompatible Types", "student_error": "Error: Expected integer but found string at line 10 near x. Make sure variable types match!", "label": true}
+{"test_id": "v2.2.yaml::84", "expected_error": "Incompatible Types", "student_error": "Line 10: Variable 'x' was expected to be a number but got a string instead. Make sure you're assigning the correct type!", "label": true}
+{"test_id": "v2.2.yaml::85", "expected_error": "Incompatible Types", "student_error": "Error: The types used here don't match up. Line 10, variables `age` and `name` are of different kinds. Make sure they're both numbers or strings!", "label": true}
+{"test_id": "v2.2.yaml::86", "expected_error": "Incompatible Types", "student_error": "Type Mismatch on Line 10: Found 'int' Where 'float' Was Expected", "label": true}
+{"test_id": "v2.2.yaml::87", "expected_error": "Incompatible Types", "student_error": "Error: Expected integer but found string at line 10 near var age = \"twenty\". Line 12 also shows a similar issue with var count = '4.5'. Variable types must match!", "label": true}
+{"test_id": "v2.2.yaml::88", "expected_error": "Incompatible Types", "student_error": "Error: Type mismatch on line 10. Expected int but found string for variable age. Hint: Make sure to use the correct data type.", "label": true}
+{"test_id": "v2.2.yaml::89", "expected_error": "Incompatible Type", "student_error": "Error: The variable \"age\" is expecting a number value but got a string. Please ensure you're assigning the correct type to \"age\". Line 5.", "label": true}
+{"test_id": "v2.2.yaml::90", "expected_error": "Incompatible Type", "student_error": "Error: Expected integer but found string on line 10 near var age.", "label": true}
+{"test_id": "v2.2.yaml::91", "expected_error": "Incompatible Type", "student_error": "Error: Expected integer but found string at line 10 near var age.", "label": true}
+{"test_id": "v2.2.yaml::92", "expected_error": "Incompatible Type", "student_error": "Error: Variable \"age\" cannot hold a string value. Expected integer but received text on line 5.", "label": true}
+{"test_id": "v2.2.yaml::93", "expected_error": "Incompatible Type", "student_error": "Error: Expected integer but found string on line 10 near var a. Make sure you're using the right type for this variable.", "label": true}
+{"test_id": "v2.2.yaml::94", "expected_error": "Incompatible Type", "student_error": "Error on line 10: Found 'int' where 'float' was expected. Make sure to use the correct data type for your variables.", "label": true}
+{"test_id": "v2.2.yaml::95", "expected_error": "Incompatible Type", "student_error": "Line 10: Variable `age` expected a number but got text instead.", "label": true}
+{"test_id": "v2.2.yaml::96", "expected_error": "Incompatible Type", "student_error": "Error: Expected integer but found string at line 10 near x. Make sure you're using the correct variable type!", "label": true}
+{"test_id": "v2.2.yaml::97", "expected_error": "Incompatible Type", "student_error": "Error: Expected integer but found string on line 10 near var age = \"twenty\".", "label": true}
+{"test_id": "v2.2.yaml::98", "expected_error": "Incompatible Type", "student_error": "Error: Expected integer but found string on line 10 near var age = \"twenty\". Please ensure variables match their declared types. Line number: 10, Variable: age.", "label": true}
+{"test_id": "v2.2.yaml::99", "expected_error": "Incompatible Type", "student_error": "Line 10: Expected an integer but found a string. Make sure you're using the right type for your variable `age`.", "label": true}
+{"test_id": "v1.0.yaml::1_neg", "expected_error": "Unexpected token PLUS (expected INT)", "student_error": "student compiler: Unexpected token CLOSE_PAR", "label": false}
+{"test_id": "v1.0.yaml::2_neg", "expected_error": "Unexpected token MINUS (expected INT)", "student_error": "student compiler: Unexpected token MULT", "label": false}
+{"test_id": "v1.0.yaml::3_neg", "expected_error": "Unexpected token EOF (expected INT)", "student_error": "student compiler: Unexpected token INT", "label": false}
+{"test_id": "v1.0.yaml::4_neg", "expected_error": "Unexpected token EOF (expected INT)", "student_error": "student compiler: Unexpected token EOF (expected INT)", "label": false}
+{"test_id": "v1.0.yaml::5_neg", "expected_error": "Unexpected token PLUS (expected INT)", "student_error": "student compiler: Unexpected token EOL", "label": false}
+{"test_id": "v1.0.yaml::6_neg", "expected_error": "Unexpected token MINUS (expected INT)", "student_error": "student compiler: Unexpected token OPEN_PAR", "label": false}
+{"test_id": "v1.0.yaml::7_neg", "expected_error": "Unexpected token PLUS (expected INT)", "student_error": "student compiler: Invalid token ,", "label": false}
+{"test_id": "v1.0.yaml::8_neg", "expected_error": "Unexpected token MINUS (expected INT)", "student_error": "student compiler: Unexpected Identifier", "label": false}
+{"test_id": "v1.0.yaml::9_neg", "expected_error": "Unexpected token EOF (expected INT)", "student_error": "student compiler: Unexpected token EOF (expected INT)", "label": false}
+{"test_id": "v1.0.yaml::10_neg", "expected_error": "Unexpected token PLUS (expected INT)", "student_error": "student compiler: Unexpected token MULT", "label": false}
+{"test_id": "v1.0.yaml::11_neg", "expected_error": "Unexpected token MINUS (expected INT)", "student_error": "student compiler: Unexpected token MULT", "label": false}
+{"test_id": "v1.0.yaml::12_neg", "expected_error": "Unexpected token INT (expected EOF)", "student_error": "student compiler: Incompatible Types", "label": false}
+{"test_id": "v1.0.yaml::13_neg", "expected_error": "Invalid token ,", "student_error": "student compiler: Incompatible types", "label": false}
+{"test_id": "v0.0.yaml::1_neg", "expected_error": "Unexpected token PLUS (expected INT)", "student_error": "student compiler: Missing OPEN_PAR in While", "label": false}
+{"test_id": "v0.0.yaml::2_neg", "expected_error": "Unexpected token MINUS (expected INT)", "student_error": "student compiler: Unexpected token DIV", "label": false}
+{"test_id": "v0.0.yaml::3_neg", "expected_error": "Unexpected token EOF (expected INT)", "student_error": "student compiler: Incompatible Type", "label": false}
+{"test_id": "v0.0.yaml::4_neg", "expected_error": "Unexpected token EOF (expected INT)", "student_error": "student compiler: Number of args wrong", "label": false}
+{"test_id": "v0.0.yaml::5_neg", "expected_error": "Unexpected token PLUS (expected INT)", "student_error": "student compiler: Incompatible Type", "label": false}
+{"test_id": "v0.0.yaml::6_neg", "expected_error": "Unexpected token MINUS (expected INT)", "student_error": "student compiler: Unexpected token CLOSE_BRA in Else", "label": false}
+{"test_id": "v0.0.yaml::7_neg", "expected_error": "Unexpected token PLUS (expected INT)", "student_error": "student compiler: Unexpected token EOF", "label": false}
+{"test_id": "v0.0.yaml::8_neg", "expected_error": "Unexpected token MINUS (expected INT)", "student_error": "student compiler: Unexpected token INT", "label": false}
+{"test_id": "v0.0.yaml::9_neg", "expected_error": "Unexpected token EOF (expected INT)", "student_error": "student compiler: Unexpected token EOF (expected INT)", "label": false}
+{"test_id": "v0.0.yaml::10_neg", "expected_error": "Unexpected token PLUS (expected INT)", "student_error": "student compiler: Unexpected token EOF", "label": false}
+{"test_id": "v0.0.yaml::11_neg", "expected_error": "Unexpected token MINUS (expected INT)", "student_error": "student compiler: Unexpected token EOF", "label": false}
+{"test_id": "v0.0.yaml::12_neg", "expected_error": "Unexpected token INT (expected EOF)", "student_error": "student compiler: Unexpected token MULT", "label": false}
+{"test_id": "v0.0.yaml::13_neg", "expected_error": "Invalid token ,", "student_error": "student compiler: Incompatible Types", "label": false}
+{"test_id": "v2.0.yaml::1_neg", "expected_error": "Unexpected token EOL", "student_error": "student compiler: Unexpected token EOL", "label": false}
+{"test_id": "v2.0.yaml::2_neg", "expected_error": "Unexpected token EOL", "student_error": "student compiler: Unexpected token NEWLINE in Else", "label": false}
+{"test_id": "v2.0.yaml::3_neg", "expected_error": "Unexpected token EOL", "student_error": "student compiler: Unexpected token INT", "label": false}
+{"test_id": "v2.0.yaml::4_neg", "expected_error": "Unexpected token EOL", "student_error": "student compiler: Unexpected token EOF", "label": false}
+{"test_id": "v2.0.yaml::5_neg", "expected_error": "Unexpected token EOL", "student_error": "student compiler: Unexpected token CLOSE_BRA", "label": false}
+{"test_id": "v2.0.yaml::6_neg", "expected_error": "Unexpected token INT", "student_error": "student compiler: Unexpected token EOF (expected OPEN_BRA)", "label": false}
+{"test_id": "v2.0.yaml::7_neg", "expected_error": "Invalid token ,", "student_error": "student compiler: Missing CLOSE_PAR", "label": false}
+{"test_id": "v2.0.yaml::8_neg", "expected_error": "Unexpected token MULT", "student_error": "student compiler: Missing CLOSE_PAR", "label": false}
+{"test_id": "v2.0.yaml::9_neg", "expected_error": "Unexpected token DIV", "student_error": "student compiler: Invalid token @", "label": false}
+{"test_id": "v2.0.yaml::10_neg", "expected_error": "Unexpected token EOL", "student_error": "student compiler: Invalid token ,", "label": false}
+{"test_id": "v2.0.yaml::11_neg", "expected_error": "Unexpected token EOL", "student_error": "student compiler: Missing Right Expression", "label": false}
+{"test_id": "v2.0.yaml::12_neg", "expected_error": "Unexpected token MULT", "student_error": "student compiler: Missing Right Expression", "label": false}
+{"test_id": "v2.0.yaml::13_neg", "expected_error": "Unexpected token DIV", "student_error": "student compiler: Unexpected token MINUS (expected INT)", "label": false}
+{"test_id": "v2.0.yaml::14_neg", "expected_error": "Unexpected token MULT", "student_error": "student compiler: Unexpected token INT (expected OPEN_PAR)", "label": false}
+{"test_id": "v2.0.yaml::15_neg", "expected_error": "Unexpected token DIV", "student_error": "student compiler: Incompatible Types", "label": false}
+{"test_id": "v2.0.yaml::16_neg", "expected_error": "Unexpected token MULT", "student_error": "student compiler: Incompatible Type", "label": false}
+{"test_id": "v2.0.yaml::17_neg", "expected_error": "Unexpected token EOF", "student_error": "student compiler: Unexpected token OPEN_PAR", "label": false}
+{"test_id": "v2.0.yaml::18_neg", "expected_error": "Unexpected token DIV", "student_error": "student compiler: Missing Right Expression", "label": false}
+{"test_id": "v2.0.yaml::19_neg", "expected_error": "Unexpected token MULT", "student_error": "student compiler: Incompatible Type", "label": false}
+{"test_id": "v2.0.yaml::20_neg", "expected_error": "Missing CLOSE_PAR", "student_error": "student compiler: Unexpected token DIV", "label": false}
+{"test_id": "v2.0.yaml::21_neg", "expected_error": "Unexpected token CLOSE_PAR", "student_error": "student compiler: Incompatible types", "label": false}
+{"test_id": "v2.0.yaml::22_neg", "expected_error": "Missing CLOSE_PAR", "student_error": "student compiler: Incompatible Types", "label": false}
+{"test_id": "v2.0.yaml::23_neg", "expected_error": "Unexpected token CLOSE_PAR", "student_error": "student compiler: Invalid token ,", "label": false}
+{"test_id": "v2.0.yaml::24_neg", "expected_error": "Unexpected token OPEN_PAR", "student_error": "student compiler: Unexpected token EOL (expected CLOSE_PAR)", "label": false}
+{"test_id": "v2.0.yaml::25_neg", "expected_error": "Unexpected token IDEN", "student_error": "student compiler: Number of args wrong", "label": false}
+{"test_id": "v2.0.yaml::26_neg", "expected_error": "Unexpected token INT (expected OPEN_PAR)", "student_error": "student compiler: Incompatible types", "label": false}
+{"test_id": "v2.0.yaml::27_neg", "expected_error": "Unexpected token EOL (expected CLOSE_PAR)", "student_error": "student compiler: Unexpected token MULT", "label": false}
+{"test_id": "v2.0.yaml::28_neg", "expected_error": "Unexpected token INT (expected OPEN_PAR)", "student_error": "student compiler: Missing OPEN_BRA in If", "label": false}
+{"test_id": "v2.0.yaml::29_neg", "expected_error": "Identifier not found", "student_error": "student compiler: Unexpected token DIV", "label": false}
+{"test_id": "v2.0.yaml::30_neg", "expected_error": "Unexpected token IDEN", "student_error": "student compiler: Unexpected token INT (expected OPEN_PAR)", "label": false}
+{"test_id": "v2.0.yaml::31_neg", "expected_error": "Unexpected token ASSIGN (expected OPEN_PAR)", "student_error": "student compiler: Missing CLOSE_PAR", "label": false}
+{"test_id": "v2.0.yaml::32_neg", "expected_error": "Unexpected token EOL (expected CLOSE_PAR)", "student_error": "student compiler: Incompatible Types", "label": false}
+{"test_id": "v2.0.yaml::33_neg", "expected_error": "Unexpected token INT", "student_error": "student compiler: Variable not found", "label": false}
+{"test_id": "v1.1.yaml::1_neg", "expected_error": "Unexpected token EOF", "student_error": "student compiler: Missing CLOSE_BRA", "label": false}
+{"test_id": "v1.1.yaml::2_neg", "expected_error": "Unexpected token EOF", "student_error": "student compiler: Unexpected token INT", "label": false}
+{"test_id": "v1.1.yaml::3_neg", "expected_error": "Unexpected token EOF", "student_error": "student compiler: Unexpected token DIV", "label": false}
+{"test_id": "v1.1.yaml::4_neg", "expected_error": "Unexpected token PLUS", "student_error": "student compiler: Unexpected token MULT", "label": false}
+{"test_id": "v1.1.yaml::5_neg", "expected_error": "Unexpected token MINUS", "student_error": "student compiler: Missing OPEN_BRA", "label": false}
+{"test_id": "v1.1.yaml::6_neg", "expected_error": "Unexpected token INT", "student_error": "student compiler: COLON not found", "label": false}
+{"test_id": "v1.1.yaml::7_neg", "expected_error": "Invalid token ,", "student_error": "student compiler: COLON not found", "label": false}
+{"test_id": "v1.1.yaml::8_neg", "expected_error": "Unexpected token MULT", "student_error": "student compiler: Unexpected token MINUS", "label": false}
+{"test_id": "v1.1.yaml::9_neg", "expected_error": "Unexpected token DIV", "student_error": "student compiler: Unexpected token EOF", "label": false}
+{"test_id": "v1.1.yaml::10_neg", "expected_error": "Unexpected token EOF", "student_error": "student compiler: Unexpected token NEWLINE Before Else", "label": false}
+{"test_id": "v1.1.yaml::11_neg", "expected_error": "Unexpected token EOF", "student_error": "student compiler: Unexpected token CLOSE_PAR", "label": false}
+{"test_id": "v1.1.yaml::12_neg", "expected_error": "Unexpected token MULT", "student_error": "student compiler: Unexpected token EOL (expected CLOSE_PAR)", "label": false}
+{"test_id": "v1.1.yaml::13_neg", "expected_error": "Unexpected token DIV", "student_error": "student compiler: Incompatible Types", "label": false}
+{"test_id": "v1.1.yaml::14_neg", "expected_error": "Unexpected token MULT", "student_error": "student compiler: Unexpected token DIV", "label": false}
+{"test_id": "v1.1.yaml::15_neg", "expected_error": "Unexpected token DIV", "student_error": "student compiler: Incompatible Types", "label": false}
+{"test_id": "v1.1.yaml::16_neg", "expected_error": "Unexpected token MULT", "student_error": "student compiler: Missing CLOSE_BRA", "label": false}
+{"test_id": "v1.1.yaml::17_neg", "expected_error": "Unexpected token DIV", "student_error": "student compiler: Unexpected token EOL", "label": false}
+{"test_id": "v1.1.yaml::18_neg", "expected_error": "Unexpected token DIV", "student_error": "student compiler: Unexpected token OPEN_PAR", "label": false}
+{"test_id": "v1.1.yaml::19_neg", "expected_error": "Unexpected token MULT", "student_error": "student compiler: Incompatible Types", "label": false}
+{"test_id": "v1.1.yaml::20_neg", "expected_error": "Unexpected token EOF", "student_error": "student compiler: Unexpected token MINUS (expected INT)", "label": false}
+{"test_id": "v1.1.yaml::21_neg", "expected_error": "Unexpected token CLOSE_PAR", "student_error": "student compiler: Unexpected token EOL", "label": false}
+{"test_id": "v1.1.yaml::22_neg", "expected_error": "Unexpected token EOF", "student_error": "student compiler: Missing OPEN_PAR", "label": false}
+{"test_id": "v1.1.yaml::23_neg", "expected_error": "Unexpected token CLOSE_PAR", "student_error": "student compiler: Missing CLOSE_PAR", "label": false}
+{"test_id": "v1.2.yaml::1_neg", "expected_error": "Unexpected token EOF", "student_error": "student compiler: Unexpected token EOL", "label": false}
+{"test_id": "v1.2.yaml::2_neg", "expected_error": "Unexpected token EOF", "student_error": "student compiler: Incompatible types", "label": false}
+{"test_id": "v1.2.yaml::3_neg", "expected_error": "Unexpected token EOF", "student_error": "student compiler: Incompatible types", "label": false}
+{"test_id": "v1.2.yaml::4_neg", "expected_error": "Unexpected token PLUS", "student_error": "student compiler: Identifier not found", "label": false}
+{"test_id": "v1.2.yaml::5_neg", "expected_error": "Unexpected token MINUS", "student_error": "student compiler: Unexpected token PLUS (expected INT)", "label": false}
+{"test_id": "v1.2.yaml::6_neg", "expected_error": "Unexpected token INT", "student_error": "student compiler: Missing Right Expression", "label": false}
+{"test_id": "v1.2.yaml::7_neg", "expected_error": "Invalid token ,", "student_error": "student compiler: Unexpected token DIV", "label": false}
+{"test_id": "v1.2.yaml::8_neg", "expected_error": "Unexpected token MULT", "student_error": "student compiler: Unexpected token DIV", "label": false}
+{"test_id": "v1.2.yaml::9_neg", "expected_error": "Unexpected token DIV", "student_error": "student compiler: Unexpected token INT (expected OPEN_PAR)", "label": false}
+{"test_id": "v1.2.yaml::10_neg", "expected_error": "Unexpected token EOF", "student_error": "student compiler: Unexpected token INT (expected OPEN_PAR)", "label": false}
+{"test_id": "v1.2.yaml::11_neg", "expected_error": "Unexpected token EOF", "student_error": "student compiler: Unexpected token EOL", "label": false}
+{"test_id": "v1.2.yaml::12_neg", "expected_error": "Unexpected token MULT", "student_error": "student compiler: Unexpected token MINUS (expected INT)", "label": false}
+{"test_id": "v1.2.yaml::13_neg", "expected_error": "Unexpected token DIV", "student_error": "student compiler: Unexpected token EOL", "label": false}
+{"test_id": "v1.2.yaml::14_neg", "expected_error": "Unexpected token MULT", "student_error": "student compiler: Incompatible Type", "label": false}
+{"test_id": "v1.2.yaml::15_neg", "expected_error": "Unexpected token DIV", "student_error": "student compiler: Unexpected token MULT", "label": false}
+{"test_id": "v1.2.yaml::16_neg", "expected_error": "Unexpected token MULT", "student_error": "student compiler: Unexpected token INT", "label": false}
+{"test_id": "v1.2.yaml::17_neg", "expected_error": "Unexpected token DIV", "student_error": "student compiler: Unexpected token MINUS", "label": false}
+{"test_id": "v1.2.yaml::18_neg", "expected_error": "Unexpected token DIV", "student_error": "student compiler: Incompatible Types", "label": false}
+{"test_id": "v1.2.yaml::19_neg", "expected_error": "Unexpected token MULT", "student_error": "student compiler: Unexpected token MULT", "label": false}
+{"test_id": "v1.2.yaml::20_neg", "expected_error": "Unexpected token EOF", "student_error": "student compiler: Unexpected token CLOSE_PAR", "label": false}
+{"test_id": "v1.2.yaml::21_neg", "expected_error": "Unexpected token CLOSE_PAR", "student_error": "student compiler: Unexpected token MULT", "label": false}
+{"test_id": "v1.2.yaml::22_neg", "expected_error": "Unexpected token EOF", "student_error": "student compiler: Unexpected token EOL", "label": false}
+{"test_id": "v1.2.yaml::23_neg", "expected_error": "Unexpected token CLOSE_PAR", "student_error": "student compiler: Unexpected token CLOSE_PAR", "label": false}
+{"test_id": "v2.1.yaml::1_neg", "expected_error": "Unexpected token EOL", "student_error": "student compiler: Unexpected token PLUS (expected INT)", "label": false}
+{"test_id": "v2.1.yaml::2_neg", "expected_error": "Unexpected token EOL", "student_error": "student compiler: Unexpected token EOL", "label": false}
+{"test_id": "v2.1.yaml::3_neg", "expected_error": "Unexpected token EOL", "student_error": "student compiler: Unexpected token EOF", "label": false}
+{"test_id": "v2.1.yaml::4_neg", "expected_error": "Unexpected token EOL", "student_error": "student compiler: Missing Right Expression", "label": false}
+{"test_id": "v2.1.yaml::5_neg", "expected_error": "Unexpected token EOL", "student_error": "student compiler: Unexpected token INT", "label": false}
+{"test_id": "v2.1.yaml::6_neg", "expected_error": "Unexpected token INT", "student_error": "student compiler: Unexpected token EOF", "label": false}
+{"test_id": "v2.1.yaml::7_neg", "expected_error": "Invalid token ,", "student_error": "student compiler: Unexpected token INT (expected EOF)", "label": false}
+{"test_id": "v2.1.yaml::8_neg", "expected_error": "Unexpected token MULT", "student_error": "student compiler: Unexpected token MULT", "label": false}
+{"test_id": "v2.1.yaml::9_neg", "expected_error": "Unexpected token DIV", "student_error": "student compiler: Missing Right Expression", "label": false}
+{"test_id": "v2.1.yaml::10_neg", "expected_error": "Unexpected token EOL", "student_error": "student compiler: Unexpected token EOF", "label": false}
+{"test_id": "v2.1.yaml::11_neg", "expected_error": "Unexpected token EOL", "student_error": "student compiler: Unexpected token EOL", "label": false}
+{"test_id": "v2.1.yaml::12_neg", "expected_error": "Unexpected token MULT", "student_error": "student compiler: Unexpected token EOL", "label": false}
+{"test_id": "v2.1.yaml::13_neg", "expected_error": "Unexpected token DIV", "student_error": "student compiler: Unexpected token EOF", "label": false}
+{"test_id": "v2.1.yaml::14_neg", "expected_error": "Unexpected token MULT", "student_error": "student compiler: Missing Right Expression", "label": false}
+{"test_id": "v2.1.yaml::15_neg", "expected_error": "Unexpected token DIV", "student_error": "student compiler: Incompatible Types", "label": false}
+{"test_id": "v2.1.yaml::16_neg", "expected_error": "Unexpected token MULT", "student_error": "student compiler: Unexpected token CLOSE_BRA in While", "label": false}
+{"test_id": "v2.1.yaml::17_neg", "expected_error": "Unexpected token CLOSE_BRA", "student_error": "student compiler: Incompatible Type", "label": false}
+{"test_id": "v2.1.yaml::18_neg", "expected_error": "Unexpected token DIV", "student_error": "student compiler: Incompatible Types", "label": false}
+{"test_id": "v2.1.yaml::19_neg", "expected_error": "Unexpected token MULT", "student_error": "student compiler: Incompatible types", "label": false}
+{"test_id": "v2.1.yaml::20_neg", "expected_error": "Missing CLOSE_PAR", "student_error": "student compiler: Unexpected token EOL", "label": false}
+{"test_id": "v2.1.yaml::21_neg", "expected_error": "Unexpected token CLOSE_PAR", "student_error": "student compiler: Unexpected token NEWLINE Before Else", "label": false}
+{"test_id": "v2.1.yaml::22_neg", "expected_error": "Missing CLOSE_PAR", "student_error": "student compiler: Unexpected ELSE", "label": false}
+{"test_id": "v2.1.yaml::23_neg", "expected_error": "Unexpected token CLOSE_PAR", "student_error": "student compiler: Missing CLOSE_PAR", "label": false}
+{"test_id": "v2.1.yaml::24_neg", "expected_error": "Unexpected token OPEN_PAR", "student_error": "student compiler: Unexpected ELSE", "label": false}
+{"test_id": "v2.1.yaml::25_neg", "expected_error": "Unexpected token IDEN", "student_error": "student compiler: Identifier not found", "label": false}
+{"test_id": "v2.1.yaml::26_neg", "expected_error": "Unexpected token INT (expected OPEN_PAR)", "student_error": "student compiler: Unexpected token ASSIGN (expected OPEN_PAR)", "label": false}
+{"test_id": "v2.1.yaml::27_neg", "expected_error": "Unexpected token EOL (expected CLOSE_PAR)", "student_error": "student compiler: Invalid return in a void function", "label": false}
+{"test_id": "v2.1.yaml::28_neg", "expected_error": "Unexpected token INT (expected OPEN_PAR)", "student_error": "student compiler: Incompatible Type", "label": false}
+{"test_id": "v2.1.yaml::29_neg", "expected_error": "Identifier not found", "student_error": "student compiler: Unexpected EOF", "label": false}
+{"test_id": "v2.1.yaml::30_neg", "expected_error": "Unexpected token EOF (expected CLOSE_BRA)", "student_error": "student compiler: Unexpected token CLOSE_BRA in Else", "label": false}
+{"test_id": "v2.1.yaml::31_neg", "expected_error": "Unexpected token CLOSE_BRA (expected EOF)", "student_error": "student compiler: Unexpected token DIV", "label": false}
+{"test_id": "v2.1.yaml::32_neg", "expected_error": "Unexpected token IDEN", "student_error": "student compiler: Unexpected token EOF (expected INT)", "label": false}
+{"test_id": "v2.1.yaml::33_neg", "expected_error": "Unexpected token ASSIGN (expected OPEN_PAR)", "student_error": "student compiler: Unexpected token NEWLINE in While", "label": false}
+{"test_id": "v2.1.yaml::34_neg", "expected_error": "Unexpected token EOL (expected CLOSE_PAR)", "student_error": "student compiler: Unexpected token DIV", "label": false}
+{"test_id": "v2.1.yaml::35_neg", "expected_error": "Unexpected token INT", "student_error": "student compiler: Unexpected token MULT", "label": false}
+{"test_id": "v2.1.yaml::36_neg", "expected_error": "Missing CLOSE_BRA", "student_error": "student compiler: Unexpected token DIV", "label": false}
+{"test_id": "v2.1.yaml::37_neg", "expected_error": "Missing OPEN_BRA", "student_error": "student compiler: Incompatible Type", "label": false}
+{"test_id": "v2.1.yaml::38_neg", "expected_error": "Missing CLOSE_BRA", "student_error": "student compiler: Missing OPEN_BRA", "label": false}
+{"test_id": "v2.1.yaml::39_neg", "expected_error": "Unexpected token EOF", "student_error": "student compiler: Missing OPEN_BRA in If", "label": false}
+{"test_id": "v2.1.yaml::40_neg", "expected_error": "Unexpected token EOF", "student_error": "student compiler: Missing OPEN_BRA in If", "label": false}
+{"test_id": "v2.1.yaml::41_neg", "expected_error": "Missing OPEN_BRA", "student_error": "student compiler: Missing CLOSE_BRA", "label": false}
+{"test_id": "v2.1.yaml::42_neg", "expected_error": "Unexpected ELSE", "student_error": "student compiler: Unexpected token MULT", "label": false}
+{"test_id": "v2.1.yaml::43_neg", "expected_error": "Missing Right Expression", "student_error": "student compiler: Incompatible Types", "label": false}
+{"test_id": "v2.1.yaml::44_neg", "expected_error": "Missing Right Expression", "student_error": "student compiler: Unexpected token MULT", "label": false}
+{"test_id": "v2.1.yaml::45_neg", "expected_error": "Missing Right Expression", "student_error": "student compiler: Incompatible Type", "label": false}
+{"test_id": "v2.1.yaml::46_neg", "expected_error": "Missing Right Expression", "student_error": "student compiler: Unexpected EOF", "label": false}
+{"test_id": "v2.1.yaml::47_neg", "expected_error": "Missing OPEN_PAR", "student_error": "student compiler: Unexpected token MULT", "label": false}
+{"test_id": "v2.1.yaml::48_neg", "expected_error": "Missing CLOSE_PAR", "student_error": "student compiler: TYPE not found", "label": false}
+{"test_id": "v2.1.yaml::49_neg", "expected_error": "Unexpected token INT", "student_error": "student compiler: Unexpected token MULT", "label": false}
+{"test_id": "v2.1.yaml::50_neg", "expected_error": "Unexpected token INT", "student_error": "student compiler: Unexpected token MINUS (expected INT)", "label": false}
+{"test_id": "v2.1.yaml::51_neg", "expected_error": "Unexpected token NEWLINE Before Else", "student_error": "student compiler: Unexpected token INT", "label": false}
+{"test_id": "v2.1.yaml::52_neg", "expected_error": "Unexpected token CLOSE_BRA in Else", "student_error": "student compiler: Unexpected token DIV", "label": false}
+{"test_id": "v2.1.yaml::53_neg", "expected_error": "Unexpected token NEWLINE in Else", "student_error": "student compiler: Unexpected token INT (expected OPEN_PAR)", "label": false}
+{"test_id": "v2.1.yaml::54_neg", "expected_error": "Unexpected token NEWLINE in While", "student_error": "student compiler: Unexpected token MINUS (expected INT)", "label": false}
+{"test_id": "v2.1.yaml::55_neg", "expected_error": "Unexpected token CLOSE_BRA in While", "student_error": "student compiler: Unexpected token DIV", "label": false}
+{"test_id": "v2.1.yaml::56_neg", "expected_error": "Missing OPEN_BRA in If", "student_error": "student compiler: Unexpected token MULT", "label": false}
+{"test_id": "v2.1.yaml::57_neg", "expected_error": "Missing OPEN_BRA in If", "student_error": "student compiler: Unexpected token DIV", "label": false}
+{"test_id": "v2.1.yaml::58_neg", "expected_error": "Missing OPEN_PAR in If", "student_error": "student compiler: Unexpected token PLUS (expected INT)", "label": false}
+{"test_id": "v2.1.yaml::59_neg", "expected_error": "Missing OPEN_PAR in While", "student_error": "student compiler: Unexpected token DIV", "label": false}
+{"test_id": "v2.3.yaml::0_neg", "expected_error": "2\n24\n8\n9\n0\n1\n6\n12\n3\n1\n2\n2\n&FALSE\n&FALSE\n&TRUE\nabcdef\nabc\nabc1\n1abc\nabc&TRUE\n&TRUE\n&TRUE\n&FALSE", "student_error": "student compiler: Unexpected token CLOSE_PAR", "label": false}
+{"test_id": "v2.3.yaml::1_neg", "expected_error": "Unexpected token EOL", "student_error": "student compiler: Unexpected token EOF", "label": false}
+{"test_id": "v2.3.yaml::2_neg", "expected_error": "Unexpected token EOL", "student_error": "student compiler: Unexpected token EOL", "label": false}
+{"test_id": "v2.3.yaml::3_neg", "expected_error": "Unexpected token EOL", "student_error": "student compiler: Unexpected token INT (expected EOF)", "label": false}
+{"test_id": "v2.3.yaml::4_neg", "expected_error": "Unexpected token EOL", "student_error": "student compiler: COLON not found", "label": false}
+{"test_id": "v2.3.yaml::5_neg", "expected_error": "Unexpected token EOL", "student_error": "student compiler: Missing OPEN_PAR", "label": false}
+{"test_id": "v2.3.yaml::6_neg", "expected_error": "Unexpected token INT", "student_error": "student compiler: Unexpected token INT (expected OPEN_PAR)", "label": false}
+{"test_id": "v2.3.yaml::7_neg", "expected_error": "Invalid token @", "student_error": "student compiler: Unexpected token MULT", "label": false}
+{"test_id": "v2.3.yaml::8_neg", "expected_error": "Unexpected token MULT", "student_error": "student compiler: Unexpected token EOL", "label": false}
+{"test_id": "v2.3.yaml::9_neg", "expected_error": "Unexpected token DIV", "student_error": "student compiler: Unexpected token IDEN", "label": false}
+{"test_id": "v2.3.yaml::10_neg", "expected_error": "Unexpected token EOL", "student_error": "student compiler: Unexpected token IDEN (expected OPEN_BRA)", "label": false}
+{"test_id": "v2.3.yaml::11_neg", "expected_error": "Unexpected token EOL", "student_error": "student compiler: Incompatible Type", "label": false}
+{"test_id": "v2.3.yaml::12_neg", "expected_error": "Unexpected token MULT", "student_error": "student compiler: Unexpected token IDEN", "label": false}
+{"test_id": "v2.3.yaml::13_neg", "expected_error": "Unexpected token DIV", "student_error": "student compiler: Incompatible Type", "label": false}
+{"test_id": "v2.3.yaml::14_neg", "expected_error": "Unexpected token MULT", "student_error": "student compiler: Identifier not found", "label": false}
+{"test_id": "v2.3.yaml::15_neg", "expected_error": "Unexpected token DIV", "student_error": "student compiler: Incompatible Type", "label": false}
+{"test_id": "v2.3.yaml::16_neg", "expected_error": "Unexpected token MULT", "student_error": "student compiler: Unexpected token PLUS (expected INT)", "label": false}
+{"test_id": "v2.3.yaml::17_neg", "expected_error": "Unexpected token CLOSE_BRA", "student_error": "student compiler: Unexpected token MULT", "label": false}
+{"test_id": "v2.3.yaml::18_neg", "expected_error": "Unexpected token DIV", "student_error": "student compiler: Unexpected token PLUS", "label": false}
+{"test_id": "v2.3.yaml::19_neg", "expected_error": "Unexpected token MULT", "student_error": "student compiler: Unexpected token INT", "label": false}
+{"test_id": "v2.3.yaml::20_neg", "expected_error": "Missing CLOSE_PAR", "student_error": "student compiler: Unexpected token EOL", "label": false}
+{"test_id": "v2.3.yaml::21_neg", "expected_error": "Unexpected token CLOSE_PAR", "student_error": "student compiler: Unexpected token DIV", "label": false}
+{"test_id": "v2.3.yaml::22_neg", "expected_error": "Missing CLOSE_PAR", "student_error": "student compiler: Missing OPEN_PAR in While", "label": false}
+{"test_id": "v2.3.yaml::23_neg", "expected_error": "Unexpected token CLOSE_PAR", "student_error": "student compiler: Unexpected token IDEN", "label": false}
+{"test_id": "v2.3.yaml::24_neg", "expected_error": "Unexpected token OPEN_PAR", "student_error": "student compiler: Unexpected token DIV", "label": false}
+{"test_id": "v2.3.yaml::25_neg", "expected_error": "Unexpected token IDEN", "student_error": "student compiler: Unexpected token INT", "label": false}
+{"test_id": "v2.3.yaml::26_neg", "expected_error": "Unexpected token INT (expected OPEN_PAR)", "student_error": "student compiler: Incompatible Type", "label": false}
+{"test_id": "v2.3.yaml::27_neg", "expected_error": "Unexpected token EOL (expected CLOSE_PAR)", "student_error": "student compiler: Incompatible types", "label": false}
+{"test_id": "v2.3.yaml::28_neg", "expected_error": "Unexpected token INT (expected OPEN_PAR)", "student_error": "student compiler: Incompatible Type", "label": false}
+{"test_id": "v2.3.yaml::29_neg", "expected_error": "Identifier not found", "student_error": "student compiler: Unexpected token DIV", "label": false}
+{"test_id": "v2.3.yaml::30_neg", "expected_error": "Unexpected token EOF (expected CLOSE_BRA)", "student_error": "student compiler: Missing CLOSE_PAR", "label": false}
+{"test_id": "v2.3.yaml::31_neg", "expected_error": "Unexpected token FUNC or OPEN_PAR", "student_error": "student compiler: Incompatible Type", "label": false}
+{"test_id": "v2.3.yaml::32_neg", "expected_error": "Unexpected token CLOSE_BRA (expected EOF)", "student_error": "student compiler: Unexpected token CLOSE_PAR", "label": false}
+{"test_id": "v2.3.yaml::33_neg", "expected_error": "Unexpected token IDEN (expected OPEN_BRA)", "student_error": "student compiler: Unexpected ELSE", "label": false}
+{"test_id": "v2.3.yaml::34_neg", "expected_error": "Unexpected token EOF (expected OPEN_BRA)", "student_error": "student compiler: Missing CLOSE_BRA", "label": false}
+{"test_id": "v2.3.yaml::35_neg", "expected_error": "Unexpected token IDEN", "student_error": "student compiler: Unexpected token CLOSE_BRA in While", "label": false}
+{"test_id": "v2.3.yaml::36_neg", "expected_error": "Unexpected token ASSIGN (expected OPEN_PAR)", "student_error": "student compiler: Unexpected token PLUS (expected INT)", "label": false}
+{"test_id": "v2.3.yaml::37_neg", "expected_error": "Unexpected token EOL (expected CLOSE_PAR)", "student_error": "student compiler: Missing function main", "label": false}
+{"test_id": "v2.3.yaml::38_neg", "expected_error": "Unexpected token INT", "student_error": "student compiler: Unexpected token IDEN", "label": false}
+{"test_id": "v2.3.yaml::39_neg", "expected_error": "Missing CLOSE_BRA", "student_error": "student compiler: Wrong func return type", "label": false}
+{"test_id": "v2.3.yaml::40_neg", "expected_error": "Missing OPEN_BRA", "student_error": "student compiler: Unexpected token CLOSE_BRA", "label": false}
+{"test_id": "v2.3.yaml::41_neg", "expected_error": "Missing CLOSE_BRA", "student_error": "student compiler: Incompatible Type", "label": false}
+{"test_id": "v2.3.yaml::42_neg", "expected_error": "Unexpected token EOF", "student_error": "student compiler: Incompatible types", "label": false}
+{"test_id": "v2.3.yaml::43_neg", "expected_error": "Unexpected token EOF", "student_error": "student compiler: Unexpected token EOL (expected CLOSE_PAR)", "label": false}
+{"test_id": "v2.3.yaml::44_neg", "expected_error": "Missing OPEN_BRA", "student_error": "student compiler: TYPE not found", "label": false}
+{"test_id": "v2.3.yaml::45_neg", "expected_error": "Unexpected ELSE", "student_error": "student compiler: Unexpected token MULT", "label": false}
+{"test_id": "v2.3.yaml::47_neg", "expected_error": "Missing Right Expression", "student_error": "student compiler: Incompatible Types", "label": false}
+{"test_id": "v2.3.yaml::48_neg", "expected_error": "Missing Right Expression", "student_error": "student compiler: Unexpected token INT", "label": false}
+{"test_id": "v2.3.yaml::49_neg", "expected_error": "Missing Right Expression", "student_error": "student compiler: Incompatible Types", "label": false}
+{"test_id": "v2.3.yaml::50_neg", "expected_error": "Missing OPEN_PAR", "student_error": "student compiler: Missing OPEN_PAR in If", "label": false}
+{"test_id": "v2.3.yaml::51_neg", "expected_error": "Missing CLOSE_PAR", "student_error": "student compiler: Unexpected token MULT", "label": false}
+{"test_id": "v2.3.yaml::52_neg", "expected_error": "Unexpected token INT", "student_error": "student compiler: Missing Right Expression", "label": false}
+{"test_id": "v2.3.yaml::53_neg", "expected_error": "Unexpected token INT", "student_error": "student compiler: Unexpected token MULT", "label": false}
+{"test_id": "v2.3.yaml::54_neg", "expected_error": "Unexpected token NEWLINE Before Else", "student_error": "student compiler: Missing OPEN_PAR in While", "label": false}
+{"test_id": "v2.3.yaml::55_neg", "expected_error": "Unexpected token CLOSE_BRA in Else", "student_error": "student compiler: Unexpected token EOL (expected CLOSE_PAR)", "label": false}
+{"test_id": "v2.3.yaml::56_neg", "expected_error": "Unexpected token NEWLINE in Else", "student_error": "student compiler: Unexpected token EOF", "label": false}
+{"test_id": "v2.3.yaml::57_neg", "expected_error": "Unexpected token NEWLINE in While", "student_error": "student compiler: Unexpected token EOF", "label": false}
+{"test_id": "v2.3.yaml::58_neg", "expected_error": "Unexpected token CLOSE_BRA in While", "student_error": "student compiler: Unexpected token IDEN", "label": false}
+{"test_id": "v2.3.yaml::59_neg", "expected_error": "Missing OPEN_BRA in If", "student_error": "student compiler: Unexpected token EOF", "label": false}
+{"test_id": "v2.3.yaml::60_neg", "expected_error": "Missing OPEN_BRA in If", "student_error": "student compiler: Unexpected token INT", "label": false}
+{"test_id": "v2.3.yaml::61_neg", "expected_error": "Missing OPEN_PAR in If", "student_error": "student compiler: Incompatible Types", "label": false}
+{"test_id": "v2.3.yaml::62_neg", "expected_error": "Missing OPEN_PAR in While", "student_error": "student compiler: Unexpected token EOF", "label": false}
+{"test_id": "v2.3.yaml::63_neg", "expected_error": "COLON not found", "student_error": "student compiler: Invalid token ,", "label": false}
+{"test_id": "v2.3.yaml::64_neg", "expected_error": "COLON not found", "student_error": "student compiler: 2\n24\n8\n9\n0\n1\n6\n12\n3\n1\n2\n2\n&FALSE\n&FALSE\n&TRUE\nabcdef\nabc\nabc1\n1abc\nabc&TRUE\n&TRUE\n&TRUE\n&FALSE", "label": false}
+{"test_id": "v2.3.yaml::65_neg", "expected_error": "TYPE not found", "student_error": "student compiler: Incompatible Types", "label": false}
+{"test_id": "v2.3.yaml::66_neg", "expected_error": "Unexpected Identifier", "student_error": "student compiler: Unexpected token INT", "label": false}
+{"test_id": "v2.3.yaml::67_neg", "expected_error": "Incompatible types", "student_error": "student compiler: Unexpected token EOL (expected CLOSE_PAR)", "label": false}
+{"test_id": "v2.3.yaml::68_neg", "expected_error": "Incompatible types", "student_error": "student compiler: Unexpected token MINUS (expected INT)", "label": false}
+{"test_id": "v2.3.yaml::69_neg", "expected_error": "Incompatible types", "student_error": "student compiler: Unexpected token MINUS (expected INT)", "label": false}
+{"test_id": "v2.3.yaml::70_neg", "expected_error": "Incompatible types", "student_error": "student compiler: Unexpected token EOF", "label": false}
+{"test_id": "v2.3.yaml::71_neg", "expected_error": "Incompatible types", "student_error": "student compiler: Identifier not found", "label": false}
+{"test_id": "v2.3.yaml::72_neg", "expected_error": "Incompatible types", "student_error": "student compiler: Function not found", "label": false}
+{"test_id": "v2.3.yaml::73_neg", "expected_error": "Incompatible types", "student_error": "student compiler: Incompatible Types", "label": false}
+{"test_id": "v2.3.yaml::74_neg", "expected_error": "Incompatible types", "student_error": "student compiler: Unexpected token MULT", "label": false}
+{"test_id": "v2.3.yaml::75_neg", "expected_error": "Variable Already Declared", "student_error": "student compiler: Unexpected token MULT", "label": false}
+{"test_id": "v2.3.yaml::76_neg", "expected_error": "Unexpected EOF", "student_error": "student compiler: Unexpected token EOL", "label": false}
+{"test_id": "v2.3.yaml::77_neg", "expected_error": "Variable not found", "student_error": "student compiler: Variable Already Declared", "label": false}
+{"test_id": "v2.3.yaml::78_neg", "expected_error": "Incompatible Types", "student_error": "student compiler: Incompatible Type", "label": false}
+{"test_id": "v2.3.yaml::79_neg", "expected_error": "Incompatible Types", "student_error": "student compiler: Incompatible types", "label": false}
+{"test_id": "v2.3.yaml::80_neg", "expected_error": "Incompatible Types", "student_error": "student compiler: Unexpected token MULT", "label": false}
+{"test_id": "v2.3.yaml::82_neg", "expected_error": "Incompatible Types", "student_error": "student compiler: Unexpected token FUNC or OPEN_PAR", "label": false}
+{"test_id": "v2.3.yaml::83_neg", "expected_error": "Incompatible Types", "student_error": "student compiler: Missing CLOSE_BRA", "label": false}
+{"test_id": "v2.3.yaml::84_neg", "expected_error": "Incompatible Types", "student_error": "student compiler: Unexpected token OPEN_PAR", "label": false}
+{"test_id": "v2.3.yaml::85_neg", "expected_error": "Incompatible Types", "student_error": "student compiler: Variable Already Declared", "label": false}
+{"test_id": "v2.3.yaml::86_neg", "expected_error": "Incompatible Types", "student_error": "student compiler: Missing OPEN_BRA", "label": false}
+{"test_id": "v2.3.yaml::87_neg", "expected_error": "Incompatible Types", "student_error": "student compiler: Unexpected token PLUS", "label": false}
+{"test_id": "v2.3.yaml::88_neg", "expected_error": "Incompatible Types", "student_error": "student compiler: Missing CLOSE_PAR", "label": false}
+{"test_id": "v2.3.yaml::89_neg", "expected_error": "Incompatible Types", "student_error": "student compiler: Unexpected token DIV", "label": false}
+{"test_id": "v2.3.yaml::90_neg", "expected_error": "Incompatible Types", "student_error": "student compiler: Unexpected token ASSIGN (expected OPEN_PAR)", "label": false}
+{"test_id": "v2.3.yaml::91_neg", "expected_error": "Incompatible Types", "student_error": "student compiler: Unexpected token CLOSE_PAR", "label": false}
+{"test_id": "v2.3.yaml::92_neg", "expected_error": "Incompatible Type", "student_error": "student compiler: Unexpected token EOL", "label": false}
+{"test_id": "v2.3.yaml::93_neg", "expected_error": "Incompatible Type", "student_error": "student compiler: Unexpected token CLOSE_BRA in Else", "label": false}
+{"test_id": "v2.3.yaml::94_neg", "expected_error": "Incompatible Type", "student_error": "student compiler: Incompatible Types", "label": false}
+{"test_id": "v2.3.yaml::95_neg", "expected_error": "Incompatible Type", "student_error": "student compiler: Incompatible Types", "label": false}
+{"test_id": "v2.3.yaml::96_neg", "expected_error": "Incompatible Type", "student_error": "student compiler: Unexpected token EOF", "label": false}
+{"test_id": "v2.3.yaml::97_neg", "expected_error": "Incompatible Type", "student_error": "student compiler: Unexpected token EOL", "label": false}
+{"test_id": "v2.3.yaml::98_neg", "expected_error": "Incompatible Type", "student_error": "student compiler: Unexpected token EOL (expected CLOSE_PAR)", "label": false}
+{"test_id": "v2.3.yaml::99_neg", "expected_error": "Incompatible Type", "student_error": "student compiler: Unexpected token EOL", "label": false}
+{"test_id": "v2.3.yaml::100_neg", "expected_error": "Incompatible Type", "student_error": "student compiler: Unexpected token ASSIGN (expected OPEN_PAR)", "label": false}
+{"test_id": "v2.3.yaml::101_neg", "expected_error": "Incompatible Type", "student_error": "student compiler: Unexpected token EOL", "label": false}
+{"test_id": "v2.3.yaml::102_neg", "expected_error": "Incompatible Type", "student_error": "student compiler: Unexpected token EOL", "label": false}
+{"test_id": "v2.3.yaml::103_neg", "expected_error": "Missing function type", "student_error": "student compiler: Unexpected token EOF (expected CLOSE_BRA)", "label": false}
+{"test_id": "v2.3.yaml::104_neg", "expected_error": "Missing function main", "student_error": "student compiler: Unexpected token DIV", "label": false}
+{"test_id": "v2.3.yaml::105_neg", "expected_error": "Missing second arg", "student_error": "student compiler: Incompatible types", "label": false}
+{"test_id": "v2.3.yaml::106_neg", "expected_error": "Missing second arg", "student_error": "student compiler: Unexpected token EOL", "label": false}
+{"test_id": "v2.3.yaml::107_neg", "expected_error": "Number of args wrong", "student_error": "student compiler: Unexpected token CLOSE_PAR", "label": false}
+{"test_id": "v2.3.yaml::108_neg", "expected_error": "Number of args wrong", "student_error": "student compiler: Missing Right Expression", "label": false}
+{"test_id": "v2.3.yaml::109_neg", "expected_error": "Wrong arg type", "student_error": "student compiler: Unexpected token NEWLINE in Else", "label": false}
+{"test_id": "v2.3.yaml::110_neg", "expected_error": "Wrong func return type", "student_error": "student compiler: Unexpected token EOF (expected INT)", "label": false}
+{"test_id": "v2.3.yaml::111_neg", "expected_error": "Function not found", "student_error": "student compiler: Incompatible Types", "label": false}
+{"test_id": "v2.3.yaml::112_neg", "expected_error": "Function not found", "student_error": "student compiler: Unexpected token NEWLINE Before Else", "label": false}
+{"test_id": "v2.3.yaml::113_neg", "expected_error": "Function not found", "student_error": "student compiler: Unexpected token DIV", "label": false}
+{"test_id": "v2.3.yaml::114_neg", "expected_error": "Invalid return in a void function", "student_error": "student compiler: Incompatible Types", "label": false}
+{"test_id": "v2.2.yaml::1_neg", "expected_error": "Unexpected token EOL", "student_error": "student compiler: Unexpected token IDEN", "label": false}
+{"test_id": "v2.2.yaml::2_neg", "expected_error": "Unexpected token EOL", "student_error": "student compiler: Function not found", "label": false}
+{"test_id": "v2.2.yaml::3_neg", "expected_error": "Unexpected token EOL", "student_error": "student compiler: Missing OPEN_PAR in If", "label": false}
+{"test_id": "v2.2.yaml::4_neg", "expected_error": "Unexpected token EOL", "student_error": "student compiler: Unexpected token DIV", "label": false}
+{"test_id": "v2.2.yaml::5_neg", "expected_error": "Unexpected token EOL", "student_error": "student compiler: Unexpected token DIV", "label": false}
+{"test_id": "v2.2.yaml::6_neg", "expected_error": "Unexpected token INT", "student_error": "student compiler: Missing OPEN_BRA in If", "label": false}
+{"test_id": "v2.2.yaml::7_neg", "expected_error": "Invalid token ,", "student_error": "student compiler: Incompatible Types", "label": false}
+{"test_id": "v2.2.yaml::8_neg", "expected_error": "Unexpected token MULT", "student_error": "student compiler: Unexpected token EOL", "label": false}
+{"test_id": "v2.2.yaml::9_neg", "expected_error": "Unexpected token DIV", "student_error": "student compiler: Unexpected token MULT", "label": false}
+{"test_id": "v2.2.yaml::10_neg", "expected_error": "Unexpected token EOL", "student_error": "student compiler: Missing OPEN_BRA in If", "label": false}
+{"test_id": "v2.2.yaml::11_neg", "expected_error": "Unexpected token EOL", "student_error": "student compiler: Unexpected token EOF (expected CLOSE_BRA)", "label": false}
+{"test_id": "v2.2.yaml::12_neg", "expected_error": "Unexpected token MULT", "student_error": "student compiler: Unexpected token EOL (expected CLOSE_PAR)", "label": false}
+{"test_id": "v2.2.yaml::13_neg", "expected_error": "Unexpected token DIV", "student_error": "student compiler: Invalid token ,", "label": false}
+{"test_id": "v2.2.yaml::14_neg", "expected_error": "Unexpected token MULT", "student_error": "student compiler: Incompatible types", "label": false}
+{"test_id": "v2.2.yaml::15_neg", "expected_error": "Unexpected token DIV", "student_error": "student compiler: Function not found", "label": false}
+{"test_id": "v2.2.yaml::16_neg", "expected_error": "Unexpected token MULT", "student_error": "student compiler: Incompatible Types", "label": false}
+{"test_id": "v2.2.yaml::17_neg", "expected_error": "Unexpected token CLOSE_BRA", "student_error": "student compiler: Missing function type", "label": false}
+{"test_id": "v2.2.yaml::18_neg", "expected_error": "Unexpected token DIV", "student_error": "student compiler: Invalid token ,", "label": false}
+{"test_id": "v2.2.yaml::19_neg", "expected_error": "Unexpected token MULT", "student_error": "student compiler: Incompatible types", "label": false}
+{"test_id": "v2.2.yaml::20_neg", "expected_error": "Missing CLOSE_PAR", "student_error": "student compiler: Incompatible Types", "label": false}
+{"test_id": "v2.2.yaml::21_neg", "expected_error": "Unexpected token CLOSE_PAR", "student_error": "student compiler: Invalid token ,", "label": false}
+{"test_id": "v2.2.yaml::22_neg", "expected_error": "Missing CLOSE_PAR", "student_error": "student compiler: Unexpected token DIV", "label": false}
+{"test_id": "v2.2.yaml::23_neg", "expected_error": "Unexpected token CLOSE_PAR", "student_error": "student compiler: Unexpected token IDEN", "label": false}
+{"test_id": "v2.2.yaml::24_neg", "expected_error": "Unexpected token OPEN_PAR", "student_error": "student compiler: Unexpected token NEWLINE in While", "label": false}
+{"test_id": "v2.2.yaml::25_neg", "expected_error": "Unexpected token IDEN", "student_error": "student compiler: Missing second arg", "label": false}
+{"test_id": "v2.2.yaml::26_neg", "expected_error": "Unexpected token INT (expected OPEN_PAR)", "student_error": "student compiler: Unexpected token EOF", "label": false}
+{"test_id": "v2.2.yaml::27_neg", "expected_error": "Unexpected token EOL (expected CLOSE_PAR)", "student_error": "student compiler: Unexpected token EOL", "label": false}
+{"test_id": "v2.2.yaml::28_neg", "expected_error": "Unexpected token INT (expected OPEN_PAR)", "student_error": "student compiler: Incompatible Types", "label": false}
+{"test_id": "v2.2.yaml::29_neg", "expected_error": "Identifier not found", "student_error": "student compiler: Unexpected token INT", "label": false}
+{"test_id": "v2.2.yaml::30_neg", "expected_error": "Unexpected token EOF (expected CLOSE_BRA)", "student_error": "student compiler: Unexpected token MINUS (expected INT)", "label": false}
+{"test_id": "v2.2.yaml::31_neg", "expected_error": "Unexpected token CLOSE_BRA (expected EOF)", "student_error": "student compiler: Unexpected token EOL", "label": false}
+{"test_id": "v2.2.yaml::32_neg", "expected_error": "Unexpected token IDEN", "student_error": "student compiler: Unexpected token DIV", "label": false}
+{"test_id": "v2.2.yaml::33_neg", "expected_error": "Unexpected token ASSIGN (expected OPEN_PAR)", "student_error": "student compiler: Incompatible Type", "label": false}
+{"test_id": "v2.2.yaml::34_neg", "expected_error": "Unexpected token EOL (expected CLOSE_PAR)", "student_error": "student compiler: Unexpected token NEWLINE in While", "label": false}
+{"test_id": "v2.2.yaml::35_neg", "expected_error": "Unexpected token INT", "student_error": "student compiler: Incompatible Type", "label": false}
+{"test_id": "v2.2.yaml::36_neg", "expected_error": "Missing CLOSE_BRA", "student_error": "student compiler: Unexpected token EOL (expected CLOSE_PAR)", "label": false}
+{"test_id": "v2.2.yaml::37_neg", "expected_error": "Missing OPEN_BRA", "student_error": "student compiler: Unexpected token PLUS (expected INT)", "label": false}
+{"test_id": "v2.2.yaml::38_neg", "expected_error": "Missing CLOSE_BRA", "student_error": "student compiler: Unexpected Identifier", "label": false}
+{"test_id": "v2.2.yaml::39_neg", "expected_error": "Unexpected token EOF", "student_error": "student compiler: Unexpected token DIV", "label": false}
+{"test_id": "v2.2.yaml::40_neg", "expected_error": "Unexpected token EOF", "student_error": "student compiler: Incompatible types", "label": false}
+{"test_id": "v2.2.yaml::41_neg", "expected_error": "Missing OPEN_BRA", "student_error": "student compiler: Missing Right Expression", "label": false}
+{"test_id": "v2.2.yaml::42_neg", "expected_error": "Unexpected ELSE", "student_error": "student compiler: Missing OPEN_BRA", "label": false}
+{"test_id": "v2.2.yaml::43_neg", "expected_error": "Missing Right Expression", "student_error": "student compiler: Unexpected token INT (expected OPEN_PAR)", "label": false}
+{"test_id": "v2.2.yaml::44_neg", "expected_error": "Missing Right Expression", "student_error": "student compiler: Missing Right Expression", "label": false}
+{"test_id": "v2.2.yaml::45_neg", "expected_error": "Missing Right Expression", "student_error": "student compiler: Unexpected token MULT", "label": false}
+{"test_id": "v2.2.yaml::46_neg", "expected_error": "Missing Right Expression", "student_error": "student compiler: Unexpected token EOF (expected INT)", "label": false}
+{"test_id": "v2.2.yaml::47_neg", "expected_error": "Missing OPEN_PAR", "student_error": "student compiler: Unexpected token EOL", "label": false}
+{"test_id": "v2.2.yaml::48_neg", "expected_error": "Missing CLOSE_PAR", "student_error": "student compiler: Unexpected token EOF", "label": false}
+{"test_id": "v2.2.yaml::49_neg", "expected_error": "Unexpected token INT", "student_error": "student compiler: Missing OPEN_BRA", "label": false}
+{"test_id": "v2.2.yaml::50_neg", "expected_error": "Unexpected token INT", "student_error": "student compiler: Unexpected token EOL", "label": false}
+{"test_id": "v2.2.yaml::51_neg", "expected_error": "Unexpected token NEWLINE Before Else", "student_error": "student compiler: Unexpected token PLUS (expected INT)", "label": false}
+{"test_id": "v2.2.yaml::52_neg", "expected_error": "Unexpected token CLOSE_BRA in Else", "student_error": "student compiler: Unexpected token CLOSE_BRA", "label": false}
+{"test_id": "v2.2.yaml::53_neg", "expected_error": "Unexpected token NEWLINE in Else", "student_error": "student compiler: Incompatible Type", "label": false}
+{"test_id": "v2.2.yaml::54_neg", "expected_error": "Unexpected token NEWLINE in While", "student_error": "student compiler: Missing second arg", "label": false}
+{"test_id": "v2.2.yaml::55_neg", "expected_error": "Unexpected token CLOSE_BRA in While", "student_error": "student compiler: Missing CLOSE_PAR", "label": false}
+{"test_id": "v2.2.yaml::56_neg", "expected_error": "Missing OPEN_BRA in If", "student_error": "student compiler: Unexpected token DIV", "label": false}
+{"test_id": "v2.2.yaml::57_neg", "expected_error": "Missing OPEN_BRA in If", "student_error": "student compiler: Unexpected token EOL", "label": false}
+{"test_id": "v2.2.yaml::58_neg", "expected_error": "Missing OPEN_PAR in If", "student_error": "student compiler: Unexpected token CLOSE_PAR", "label": false}
+{"test_id": "v2.2.yaml::59_neg", "expected_error": "Missing OPEN_PAR in While", "student_error": "student compiler: Unexpected token CLOSE_BRA (expected EOF)", "label": false}
+{"test_id": "v2.2.yaml::60_neg", "expected_error": "COLON not found", "student_error": "student compiler: Unexpected token EOF (expected CLOSE_BRA)", "label": false}
+{"test_id": "v2.2.yaml::61_neg", "expected_error": "COLON not found", "student_error": "student compiler: Incompatible types", "label": false}
+{"test_id": "v2.2.yaml::62_neg", "expected_error": "TYPE not found", "student_error": "student compiler: Unexpected token CLOSE_BRA (expected EOF)", "label": false}
+{"test_id": "v2.2.yaml::63_neg", "expected_error": "Unexpected Identifier", "student_error": "student compiler: Missing OPEN_BRA in If", "label": false}
+{"test_id": "v2.2.yaml::64_neg", "expected_error": "Incompatible types", "student_error": "student compiler: Unexpected token INT", "label": false}
+{"test_id": "v2.2.yaml::65_neg", "expected_error": "Incompatible types", "student_error": "student compiler: Missing CLOSE_PAR", "label": false}
+{"test_id": "v2.2.yaml::66_neg", "expected_error": "Incompatible types", "student_error": "student compiler: Incompatible types", "label": false}
+{"test_id": "v2.2.yaml::67_neg", "expected_error": "Incompatible types", "student_error": "student compiler: Unexpected token EOF", "label": false}
+{"test_id": "v2.2.yaml::68_neg", "expected_error": "Incompatible types", "student_error": "student compiler: Unexpected token INT (expected OPEN_PAR)", "label": false}
+{"test_id": "v2.2.yaml::69_neg", "expected_error": "Incompatible types", "student_error": "student compiler: Unexpected token MULT", "label": false}
+{"test_id": "v2.2.yaml::70_neg", "expected_error": "Incompatible types", "student_error": "student compiler: Unexpected token PLUS (expected INT)", "label": false}
+{"test_id": "v2.2.yaml::71_neg", "expected_error": "Incompatible types", "student_error": "student compiler: COLON not found", "label": false}
+{"test_id": "v2.2.yaml::72_neg", "expected_error": "Variable Already Declared", "student_error": "student compiler: Unexpected token CLOSE_BRA in While", "label": false}
+{"test_id": "v2.2.yaml::73_neg", "expected_error": "Unexpected EOF", "student_error": "student compiler: Variable not found", "label": false}
+{"test_id": "v2.2.yaml::74_neg", "expected_error": "Variable not found", "student_error": "student compiler: Unexpected token EOF", "label": false}
+{"test_id": "v2.2.yaml::75_neg", "expected_error": "Incompatible Types", "student_error": "student compiler: Unexpected token MULT", "label": false}
+{"test_id": "v2.2.yaml::76_neg", "expected_error": "Incompatible Types", "student_error": "student compiler: Incompatible types", "label": false}
+{"test_id": "v2.2.yaml::77_neg", "expected_error": "Incompatible Types", "student_error": "student compiler: Incompatible Type", "label": false}
+{"test_id": "v2.2.yaml::78_neg", "expected_error": "Incompatible Types", "student_error": "student compiler: Unexpected token MULT", "label": false}
+{"test_id": "v2.2.yaml::79_neg", "expected_error": "Incompatible Types", "student_error": "student compiler: Missing OPEN_BRA", "label": false}
+{"test_id": "v2.2.yaml::80_neg", "expected_error": "Incompatible Types", "student_error": "student compiler: Incompatible Type", "label": false}
+{"test_id": "v2.2.yaml::81_neg", "expected_error": "Incompatible Types", "student_error": "student compiler: Unexpected token INT", "label": false}
+{"test_id": "v2.2.yaml::82_neg", "expected_error": "Incompatible Types", "student_error": "student compiler: Unexpected token IDEN", "label": false}
+{"test_id": "v2.2.yaml::83_neg", "expected_error": "Incompatible Types", "student_error": "student compiler: Missing CLOSE_PAR", "label": false}
+{"test_id": "v2.2.yaml::84_neg", "expected_error": "Incompatible Types", "student_error": "student compiler: Missing OPEN_PAR in If", "label": false}
+{"test_id": "v2.2.yaml::85_neg", "expected_error": "Incompatible Types", "student_error": "student compiler: Unexpected token CLOSE_PAR", "label": false}
+{"test_id": "v2.2.yaml::86_neg", "expected_error": "Incompatible Types", "student_error": "student compiler: Incompatible Types", "label": false}
+{"test_id": "v2.2.yaml::87_neg", "expected_error": "Incompatible Types", "student_error": "student compiler: Unexpected token ASSIGN (expected OPEN_PAR)", "label": false}
+{"test_id": "v2.2.yaml::88_neg", "expected_error": "Incompatible Types", "student_error": "student compiler: Unexpected token NEWLINE in Else", "label": false}
+{"test_id": "v2.2.yaml::89_neg", "expected_error": "Incompatible Type", "student_error": "student compiler: Missing CLOSE_PAR", "label": false}
+{"test_id": "v2.2.yaml::90_neg", "expected_error": "Incompatible Type", "student_error": "student compiler: Missing OPEN_PAR", "label": false}
+{"test_id": "v2.2.yaml::91_neg", "expected_error": "Incompatible Type", "student_error": "student compiler: Unexpected token CLOSE_BRA (expected EOF)", "label": false}
+{"test_id": "v2.2.yaml::92_neg", "expected_error": "Incompatible Type", "student_error": "student compiler: Unexpected token INT", "label": false}
+{"test_id": "v2.2.yaml::93_neg", "expected_error": "Incompatible Type", "student_error": "student compiler: Unexpected token EOF", "label": false}
+{"test_id": "v2.2.yaml::94_neg", "expected_error": "Incompatible Type", "student_error": "student compiler: Unexpected token CLOSE_PAR", "label": false}
+{"test_id": "v2.2.yaml::95_neg", "expected_error": "Incompatible Type", "student_error": "student compiler: Unexpected token MULT", "label": false}
+{"test_id": "v2.2.yaml::96_neg", "expected_error": "Incompatible Type", "student_error": "student compiler: Unexpected token CLOSE_PAR", "label": false}
+{"test_id": "v2.2.yaml::97_neg", "expected_error": "Incompatible Type", "student_error": "student compiler: Incompatible Types", "label": false}
+{"test_id": "v2.2.yaml::98_neg", "expected_error": "Incompatible Type", "student_error": "student compiler: Wrong arg type", "label": false}
+{"test_id": "v2.2.yaml::99_neg", "expected_error": "Incompatible Type", "student_error": "student compiler: Missing CLOSE_BRA", "label": false}
