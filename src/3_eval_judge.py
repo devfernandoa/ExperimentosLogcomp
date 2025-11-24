@@ -2,7 +2,7 @@ import json
 from pathlib import Path
 from collections import Counter
 
-JUDGE_PATH = Path("judgments.jsonl")
+JUDGE_PATH = Path("../data/judgments.jsonl")
 
 def main():
     rows = []

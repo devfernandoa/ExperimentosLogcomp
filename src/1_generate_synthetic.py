@@ -3,8 +3,8 @@ import random
 from pathlib import Path
 from prompts import GEN_PROMPT_TEMPLATE, call_ollama
 
-GOLD_PATH = Path("gold.jsonl")
-SYNTH_PATH = Path("synthetic.jsonl")
+GOLD_PATH = Path("../data/gold.jsonl")
+SYNTH_PATH = Path("../data/synthetic.jsonl")
 
 def main():
     random.seed(1337)

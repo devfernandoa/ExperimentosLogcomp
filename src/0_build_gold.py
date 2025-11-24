@@ -2,8 +2,8 @@ import zipfile
 import yaml
 import json
 
-INPUT_ZIP = "testslogcomp.zip"
-OUT_PATH = "gold.jsonl"
+INPUT_ZIP = "../data/testslogcomp.zip"
+OUT_PATH = "../data/gold.jsonl"
 
 def main():
     gold_examples = []

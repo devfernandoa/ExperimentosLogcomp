@@ -3,8 +3,8 @@ import time
 from pathlib import Path
 from prompts import JUDGE_FEWSHOT_TEMPLATE, call_ollama, normalize_bool
 
-SYNTH_PATH = Path("synthetic.jsonl")
-JUDGE_PATH = Path("judgments.jsonl")
+SYNTH_PATH = Path("../data/synthetic.jsonl")
+JUDGE_PATH = Path("../data/judgments.jsonl")
 
 def main():
     # Load pairs

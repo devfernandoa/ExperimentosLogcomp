@@ -6,7 +6,7 @@ from sklearn.metrics import precision_recall_fscore_support, accuracy_score
 from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 
-SYNTH_PATH = Path("synthetic.jsonl")
+SYNTH_PATH = Path("../data/synthetic.jsonl")
 
 def load_pairs():
     rows = []

@@ -4,8 +4,8 @@ from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from prompts import JUDGE_FEWSHOT_TEMPLATE, call_ollama, normalize_bool
 
-SYNTH_PATH = Path("synthetic.jsonl")
-JUDGE_PATH = Path("judgments.jsonl")
+SYNTH_PATH = Path("../data/synthetic.jsonl")
+JUDGE_PATH = Path("../data/judgments.jsonl")
 
 # You can tune this (8, 12, 16, ...)
 MAX_WORKERS = 16
